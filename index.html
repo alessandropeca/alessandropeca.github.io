@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Include the ADS widget CSS file -->
+    <link rel="stylesheet" href=adswidget/ads_query_importer_widget.css" type="text/css">
+    <!-- Include jQuery if not already used -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <!-- Include the ADS Widget library -->
+    <script type="text/javascript" src="adswidget/ads_query_importer_widget.js"></script>
+    <!-- Set the custom parameters -->
+    <script type="text/javascript">
+        // Mandatory parameters
+        var ads_query_url = 'http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=black+holes';
+        // Optional parameters (customize as needed)
+        var ads_query_title = 'Top publications about galaxies';
+        var ads_query_max_num_authors = '20';
+        var ads_query_highlight_author = 'Huchra';
+        var ads_query_max_records_to_print = '100';
+    </script>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <img src="A_Peca_profile_pic.jpg" alt="My Face" class="profile-pic">
+            <img src="imgs/A_Peca_profile_pic.jpg" alt="My Face" class="profile-pic">
             <h1>Welcome to My Webpage</h1>
         </div>
         <nav>
@@ -42,8 +58,9 @@
                     <!-- Publications will be loaded here dynamically -->
                 </ul>
             </div>
+            <!-- The div where the ADS query results will be displayed -->
+            <div id="ads_query_importer_widget"></div>
         </section>
-        <script src="script_pub.js"></script>
         
         <section id="contact">
             <h2>Contact Me</h2>
