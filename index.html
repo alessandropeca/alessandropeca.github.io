@@ -5,22 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Include the ADS widget CSS file -->
-    <link rel="stylesheet" href=adswidget/ads_query_importer_widget.css" type="text/css">
-    <!-- Include jQuery if not already used -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <!-- Include the ADS Widget library -->
-    <script type="text/javascript" src="adswidget/ads_query_importer_widget.js"></script>
-    <!-- Set the custom parameters -->
-    <script type="text/javascript">
-        // Mandatory parameters
-        var ads_query_url = 'http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=black+holes';
-        // Optional parameters (customize as needed)
-        var ads_query_title = 'Top publications about galaxies';
-        var ads_query_max_num_authors = '20';
-        var ads_query_highlight_author = 'Huchra';
-        var ads_query_max_records_to_print = '100';
-    </script>
 </head>
 <body>
     <header>
@@ -53,13 +37,9 @@
         
         <section id="publications">
             <h2>Publications</h2>
-            <div class="publications-box">
-                <ul id="publications-list">
-                    <!-- Publications will be loaded here dynamically -->
-                </ul>
+            <div class="publications-box" id="ads_query_results">
+                <!-- Results will be inserted here -->
             </div>
-            <!-- The div where the ADS query results will be displayed -->
-            <div id="ads_query_importer_widget"></div>
         </section>
         
         <section id="contact">
@@ -70,6 +50,75 @@
     <footer>
         <p>&copy; 2024 Alessandro Peca's Webpage. All rights reserved.</p>
     </footer>
+
+    <script>
+        async function fetchADSData() {
+            const token = 'Jqi8dLve7H7ixzmh0XQirKjB4miSf2Tnre3khV8y';  // Replace with your actual token
+            const author = 'peca, alessandro';
+            const resultsDiv = document.getElementById('ads_query_results');
+
+            try {
+                // First author papers query
+                const queryFirst = new URLSearchParams({
+                    q: `first_author:${author}`,
+                    fl: 'title, author, date, citation_count, bibcode',
+                    rows: 200
+                });
+
+                const responseFirst = await fetch(`https://api.adsabs.harvard.edu/v1/search/query?${queryFirst}`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+
+                const resultsFirst = await responseFirst.json();
+                displayResults(resultsFirst, 'First Author Papers', resultsDiv);
+
+                // All papers query
+                const queryAll = new URLSearchParams({
+                    q: `author:${author}`,
+                    fl: 'title, author, date, citation_count, bibcode',
+                    rows: 200
+                });
+
+                const responseAll = await fetch(`https://api.adsabs.harvard.edu/v1/search/query?${queryAll}`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    }
+                });
+
+                const resultsAll = await responseAll.json();
+                displayResults(resultsAll, 'All Papers', resultsDiv);
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        }
+
+        function displayResults(results, title, container) {
+            const section = document.createElement('section');
+            const header = document.createElement('h2');
+            header.textContent = title;
+            section.appendChild(header);
+
+            if (results.response && results.response.docs) {
+                const list = document.createElement('ul');
+                results.response.docs.forEach(doc => {
+                    const item = document.createElement('li');
+                    item.innerHTML = `<strong>${doc.title[0]}</strong> by ${doc.author.join(', ')} (${doc.date}) - Citations: ${doc.citation_count} - <a href="https://ui.adsabs.harvard.edu/abs/${doc.bibcode}" target="_blank">ADS Link</a>`;
+                    list.appendChild(item);
+                });
+                section.appendChild(list);
+            } else {
+                section.innerHTML += '<p>No results found.</p>';
+            }
+
+            container.appendChild(section);
+        }
+
+        // Automatically run the query when the page loads
+        window.onload = fetchADSData;
+    </script>
 
 </body>
 </html>
