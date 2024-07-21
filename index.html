@@ -37,6 +37,8 @@
         
         <section id="publications">
             <h2>Publications</h2>
+            <input type="text" id="search-query" placeholder="Enter author name">
+            <button onclick="fetchADSData()">Search</button>
             <div class="publications-box" id="ads_query_results">
                 <!-- Results will be inserted here -->
             </div>
@@ -53,27 +55,12 @@
 
     <script>
         async function fetchADSData() {
-            const token = 'Jqi8dLve7H7ixzmh0XQirKjB4miSf2Tnre3khV8y';  // Replace with your actual token
-            const author = 'peca, alessandro';
+            const queryInput = document.getElementById('search-query');
+            const author = queryInput.value || 'peca, alessandro';
             const resultsDiv = document.getElementById('ads_query_results');
+            resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                // First author papers query
-                const queryFirst = new URLSearchParams({
-                    q: `first_author:${author}`,
-                    fl: 'title, author, date, citation_count, bibcode',
-                    rows: 200
-                });
-
-                const responseFirst = await fetch(`https://api.adsabs.harvard.edu/v1/search/query?${queryFirst}`, {
-                    headers: {
-                        'Authorization': `Bearer ${token}`
-                    }
-                });
-
-                const resultsFirst = await responseFirst.json();
-                displayResults(resultsFirst, 'First Author Papers', resultsDiv);
-
                 // All papers query
                 const queryAll = new URLSearchParams({
                     q: `author:${author}`,
@@ -81,17 +68,23 @@
                     rows: 200
                 });
 
-                const responseAll = await fetch(`https://api.adsabs.harvard.edu/v1/search/query?${queryAll}`, {
+                const responseAll = await fetch(`https://cors-anywhere.herokuapp.com/https://api.adsabs.harvard.edu/v1/search/query?${queryAll}`, {
                     headers: {
-                        'Authorization': `Bearer ${token}`
+                        'Authorization': `Bearer Jqi8dLve7H7ixzmh0XQirKjB4miSf2Tnre3khV8y`
                     }
                 });
 
+                if (!responseAll.ok) {
+                    throw new Error(`Query failed: ${responseAll.status} ${responseAll.statusText}`);
+                }
+
                 const resultsAll = await responseAll.json();
+                console.log("API Response:", resultsAll);
                 displayResults(resultsAll, 'All Papers', resultsDiv);
 
             } catch (error) {
                 resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+                console.error("Fetch Error:", error);
             }
         }
 
@@ -119,6 +112,5 @@
         // Automatically run the query when the page loads
         window.onload = fetchADSData;
     </script>
-
 </body>
 </html>
