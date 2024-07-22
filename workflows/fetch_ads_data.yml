@@ -1,0 +1,51 @@
+name: Fetch ADS Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install requests
+
+      - name: Fetch ADS data
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+        run: |
+          import requests
+          import json
+
+          token = os.getenv('ADS_API_TOKEN')
+          headers = {'Authorization': f'Bearer {token}'}
+          params = {
+              'q': 'author:peca, alessandro',
+              'fl': 'title, author, date, citation_count, bibcode',
+              'rows': 200
+          }
+          response = requests.get('https://api.adsabs.harvard.edu/v1/search/query', headers=headers, params=params)
+          data = response.json()
+
+          with open('data/ads_data.json', 'w') as f:
+              json.dump(data, f, indent=4)
+
+      - name: Commit and push data
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add data/ads_data.json
+          git commit -m 'Update ADS data'
+          git push
