@@ -37,8 +37,6 @@
         
         <section id="publications">
             <h2>Publications</h2>
-            <input type="text" id="search-query" placeholder="Enter author name">
-            <button onclick="fetchADSData()">Search</button>
             <div class="publications-box" id="ads_query_results">
                 <!-- Results will be inserted here -->
             </div>
@@ -55,27 +53,14 @@
 
     <script>
         async function fetchADSData() {
-            const queryInput = document.getElementById('search-query');
-            const author = queryInput.value || 'peca, alessandro';
             const resultsDiv = document.getElementById('ads_query_results');
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                // All papers query
-                const queryAll = new URLSearchParams({
-                    q: `author:${author}`,
-                    fl: 'title, author, date, citation_count, bibcode',
-                    rows: 200
-                });
-
-                const responseAll = await fetch(`https://cors-anywhere.herokuapp.com/https://api.adsabs.harvard.edu/v1/search/query?${queryAll}`, {
-                    headers: {
-                        'Authorization': `Bearer Jqi8dLve7H7ixzmh0XQirKjB4miSf2Tnre3khV8y`
-                    }
-                });
+                const responseAll = await fetch('https://your-username.github.io/your-repository/data/ads_data.json');
 
                 if (!responseAll.ok) {
-                    throw new Error(`Query failed: ${responseAll.status} ${responseAll.statusText}`);
+                    throw new Error(`Failed to fetch data: ${responseAll.status} ${responseAll.statusText}`);
                 }
 
                 const resultsAll = await responseAll.json();
