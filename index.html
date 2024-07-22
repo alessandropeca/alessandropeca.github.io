@@ -22,9 +22,8 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>This page is work in progress.</p>
+            <p>This page is a work in progress.</p>
         </section>
-
         
         <section id="publications">
             <h2>Publications</h2>
@@ -48,7 +47,7 @@
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                const responseAll = await fetch('https://your-username.github.io/your-repository/data/ads_data.json');
+                const responseAll = await fetch('https://alessandropeca.github.io/your-repository/data/ads_data.json');
 
                 if (!responseAll.ok) {
                     throw new Error(`Failed to fetch data: ${responseAll.status} ${responseAll.statusText}`);
