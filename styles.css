@@ -154,25 +154,19 @@ footer {
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Stack the links vertically */
+        flex-direction: row; /* Ensure the items stay in a row before wrapping */
         position: static; /* Remove absolute positioning */
         background-color: rgba(0, 0, 0, 0.9); /* Darken background for mobile */
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease-in-out;
-    }
-
-    nav ul.active {
-        max-height: 300px; /* Adjust according to your needs */
+        flex-wrap: wrap; /* Wrap the menu items onto multiple lines */
     }
 
     nav ul li {
-        margin: 5px 0; /* Reduce spacing between items */
+        margin: 5px 0; /* Reduce spacing between items vertically */
     }
 
     nav ul li a {
-        font-size: 14px; /* Reduce font size for smaller screens */
-        padding: 8px 12px; /* Reduce padding for easier tapping and to fit smaller screens */
+        font-size: 16px; /* Adjust font size for better readability on small screens */
+        padding: 10px; /* Keep padding consistent for tapping */
     }
 
     .header-content {
