@@ -13,7 +13,7 @@ header {
     background-image: url('imgs/bkg_image_space.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Set a fixed height for the header */
+    height: 350px; /* Set a fixed height for the header */
     position: relative;
     text-align: center;
     color: white;
