@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .contact-links a {
+            display: inline-block;
+            margin-right: 20px; /* Add space between icons */
+            margin-bottom: 10px; /* Optional: add some space below */
+            text-decoration: none; /* Remove underline from links */
+            color: inherit; /* Keep text color the same as surrounding text */
+        }
+        .contact-links a i {
+            vertical-align: middle; /* Vertically align icons with text */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,6 +28,8 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,9 +37,25 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>This page is a work in progress.</p>
+            <p>Hello there! I’m Alessandro, a postdoc at Eureka Scientific and a Laboratory Associate at Yale University. I specialize in the study and evolution of active galactic nuclei (AGN) across various large-area surveys. My work involves several key projects focused on high-luminosity, heavily obscured AGN, both at high redshifts and in nearby galaxies. My expertise spans X-ray spectral/photometric analysis, AGN/galaxy SED fitting, multi-wavelength AGN counterpart matching, and the management of large catalogs and databases. I also have a deep love for statistics, which plays a crucial role in my research.
+                <div>
+                    <a href="data/my_cv.pdf" download="Alessandro_Peca_CV.pdf" class="btn">
+                        <i class="fas fa-file-download"></i>&nbsp;Download My CV
+                    </a>
+                </div>
+            </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p>This page is still a work in progress, but you can find information on my main projects here:</p>
+            <ul>
+                <li>The BASS survey: obscuration and variability studies of nearby AGN - <a href="https://www.bass-survey.com/" target="_blank">Learn more</a></li>
+                <li>Stripe 82 survey: population study of AGN evolution - <a href="https://project.ifa.hawaii.edu/aha/" target="_blank">Learn more</a></li>
+                <li>AGN-DB: the largest repository of discovered AGN - <a href="http://agndb.physics.miami.edu/" target="_blank">Learn more</a></li>
+                <li>The J1030 Chandra deep field: AGN population studies and obscuration studies - <a href="http://www.oabo.inaf.it/~LBTz6/1030/index.html" target="_blank">Learn more</a></li>
+            </ul>
         </section>
-        
+
         <section id="publications">
             <h2>Publications</h2>
             <div class="publications-box" id="ads_query_results">
@@ -34,7 +65,21 @@
         
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>You can contact me at <a href="mailto:peca.alessandro@gmail.com">peca.alessandro@gmail.com</a>.</p>
+            <p>You can reach out to me via email or connect with me on social media:</p>
+            <div class="contact-links">
+                <a href="mailto:peca.alessandro@gmail.com" target="_blank" aria-label="Email" class="contact-btn">
+                    <i class="fas fa-envelope fa-2x"></i> peca.alessandro@gmail.com
+                </a>
+                <a href="https://x.com/astro_peca" target="_blank" aria-label="X (formerly Twitter)" class="contact-btn">
+                    <i class="fab fa-twitter fa-2x"></i> X
+                </a>
+                <a href="https://bsky.app/profile/xpecax.bsky.social" target="_blank" aria-label="Bluesky" class="contact-btn">
+                    <i class="fas fa-cloud fa-2x"></i> Bluesky
+                </a>
+                <a href="https://www.linkedin.com/in/alessandro-peca-188949b8/" target="_blank" aria-label="LinkedIn" class="contact-btn">
+                    <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+                </a>
+            </div>
         </section>
     </main>
     <footer>
