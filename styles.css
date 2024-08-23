@@ -77,12 +77,29 @@ p {
     font-size: 18px;
 }
 
+h2 {
+    font-size: 32px; /* Increase the size of h2 titles */
+    margin-bottom: 10px;
+    color: #333; /* Optional: adjust the color for better contrast */
+}
+
+
+
+section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Light gray bottom border */
+    margin-bottom: 20px; /* Space below each section */
+}
+
 .publications-box {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    height: 300px; /* Fixed height for the box */
+    overflow-y: scroll; /* Makes the box scrollable if content exceeds height */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
 }
 
 .publications-box ul {
