@@ -1,0 +1,269 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 130,
+        "params": {
+            "q": "first_author:peca, alessandro",
+            "fl": "title,author,date,citation_count,bibcode",
+            "start": "0",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-66c9075a-54bd868f69c21756743adf18",
+            "rows": "200",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 14,
+        "start": 0,
+        "docs": [
+            {
+                "bibcode": "2023ApJ...943..162P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C. Megan",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Ananna, Tonima Tasnim",
+                    "Balokovi\u0107, Mislav",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Treister, Ezequiel",
+                    "Powell, Meredith",
+                    "Turner, Tracey Jane",
+                    "Kirkpatrick, Allison",
+                    "Tian, Chuan"
+                ],
+                "date": "2023-02-01T00:00:00Z",
+                "title": [
+                    "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
+                ],
+                "citation_count": 27
+            },
+            {
+                "bibcode": "2024arXiv240709617P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "LaMassa, Stephanie",
+                    "Urry, C. Megan",
+                    "Moscetti, Massimo",
+                    "Marchesi, Stefano",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Ghosh, Aritra",
+                    "Ananna, Tonima Tasnim",
+                    "Torres-Alb\u00e0, N\u00faria",
+                    "Treister, Ezequiel"
+                ],
+                "date": "2024-07-01T00:00:00Z",
+                "title": [
+                    "Stripe 82-XL: the $\\sim$54.8 deg$^2$ and $\\sim$18.8 Ms Chandra and XMM-Newton point source catalog and number of counts"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2021ApJ...906...90P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Vignali, Cristian",
+                    "Gilli, Roberto",
+                    "Mignoli, Marco",
+                    "Nanni, Riccardo",
+                    "Marchesi, Stefano",
+                    "Bolzonella, Micol",
+                    "Brusa, Marcella",
+                    "Cappelluti, Nico",
+                    "Comastri, Andrea",
+                    "Lanzuisi, Giorgio",
+                    "Vito, Fabio"
+                ],
+                "date": "2021-01-01T00:00:00Z",
+                "title": [
+                    "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
+                ],
+                "citation_count": 14
+            },
+            {
+                "bibcode": "2023arXiv231108449P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2023-11-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshift for obscured AGN with AXIS deep and intermediate surveys"
+                ],
+                "citation_count": 1
+            },
+            {
+                "bibcode": "2024Univ...10..245P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2024-06-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2024HEAD...2140006P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C."
+                ],
+                "date": "2024-05-01T00:00:00Z",
+                "title": [
+                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2023HEAD...2010067P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C.",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Ananna, Tonima Tasnim",
+                    "Balokovic, Mislav",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Treister, Ezequiel",
+                    "Powell, Meredith",
+                    "Turner, Jane",
+                    "Kirkpatrick, Allison",
+                    "Tian, Chuan"
+                ],
+                "date": "2023-09-01T00:00:00Z",
+                "title": [
+                    "On the cosmic evolution of AGN obscuration and the X-ray luminosity function: XMM-Newton and Chandra spectral analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2024AAS...24345105P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, Meg"
+                ],
+                "date": "2024-02-01T00:00:00Z",
+                "title": [
+                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2023HEAD...2010031P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C."
+                ],
+                "date": "2023-09-01T00:00:00Z",
+                "title": [
+                    "AGN-DB: A Spectro-Photometric and Morphological Database of AGN"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2023HEAD...2040405P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Sicilian, Dominic",
+                    "Civano, Francesca",
+                    "Cappelluti, Nico",
+                    "Buchner, Johannes"
+                ],
+                "date": "2023-09-01T00:00:00Z",
+                "title": [
+                    "Estimating Obscured Chandra Source Catalog AGN Redshifts using the XZ Method and Machine Learning"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2023yCat..19430162P",
+                "citation_count": 0,
+                "author": [
+                    "Peca, A.",
+                    "Cappelluti, N.",
+                    "Urry, C. M.",
+                    "Lamassa, S.",
+                    "Marchesi, S.",
+                    "Ananna, T. T.",
+                    "Blalokovic, M.",
+                    "Sanders, D.",
+                    "Auge, C.",
+                    "Treister, E.",
+                    "Powell, M.",
+                    "Turner, T. J.",
+                    "Kirkpatrick, A.",
+                    "Tian, C."
+                ],
+                "date": "2023-02-01T00:00:00Z",
+                "title": [
+                    "VizieR Online Data Catalog: 31.3 deg<SUP>2</SUP> Stripe 82X spectral analysis (Peca+,"
+                ]
+            },
+            {
+                "bibcode": "2023AAS...24113703P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C.",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Ananna, Tonima Tasnim",
+                    "Balokovic, Mislav",
+                    "Auge, Connor",
+                    "Sanders, David",
+                    "Treister, Ezequiel",
+                    "Powell, Meredith",
+                    "Turner, Jane",
+                    "Kirkpatrick, Allison",
+                    "Tian, Chuan"
+                ],
+                "date": "2023-01-01T00:00:00Z",
+                "title": [
+                    "On the cosmic evolution of AGN obscuration and the X-ray luminosity function: XMM-Newton and Chandra spectral analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2021cxo..prop.6191P",
+                "author": [
+                    "Peca, Alessandro"
+                ],
+                "date": "2021-09-01T00:00:00Z",
+                "title": [
+                    "The Large STRIPE-82 X-Ray (S82XL) Survey"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2018agn..confE..55P",
+                "citation_count": 0,
+                "author": [
+                    "Peca, Alessandro",
+                    "Vignali, C.",
+                    "Gilli, R.",
+                    "Mignoli, M."
+                ],
+                "date": "2018-10-01T00:00:00Z",
+                "title": [
+                    "Obscured AGN in the field of J1030: the X-ray and optical/infrared perspective"
+                ]
+            }
+        ]
+    }
+}

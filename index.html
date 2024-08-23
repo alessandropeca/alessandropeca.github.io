@@ -59,7 +59,12 @@
 
         <section id="publications">
             <h2>Publications</h2>
-            <div class="publications-box" id="ads_query_results">
+            <h3>First Author Papers</h3>
+            <div class="publications-box" id="ads_query_results_first">
+                <!-- Results will be inserted here -->
+            </div>
+            <h3>Including Co-author Papers</h3>
+            <div class="publications-box" id="ads_query_results_first">
                 <!-- Results will be inserted here -->
             </div>
         </section>
@@ -89,11 +94,11 @@
 
     <script>
         async function fetchADSData() {
-            const resultsDiv = document.getElementById('ads_query_results');
+            const resultsDiv = document.getElementById('ads_query_results_first');
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                const responseAll = await fetch('https://alessandropeca.github.io/data/ads_data.json');
+                const responseAll = await fetch('https://alessandropeca.github.io/data/ads_data_first.json');
 
                 if (!responseAll.ok) {
                     throw new Error(`Failed to fetch data: ${responseAll.status} ${responseAll.statusText}`);
@@ -101,7 +106,7 @@
 
                 const resultsAll = await responseAll.json();
                 console.log("API Response:", resultsAll);
-                displayResults(resultsAll, 'All Papers', resultsDiv);
+                displayResults(resultsAll, resultsDiv);
 
             } catch (error) {
                 resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
@@ -109,12 +114,28 @@
             }
         }
 
-        function displayResults(results, title, container) {
-            const section = document.createElement('section');
-            const header = document.createElement('h2');
-            header.textContent = title;
-            section.appendChild(header);
+        async function fetchRecentADSData() {
+            const resultsDiv = document.getElementById('ads_query_results_all');
+            resultsDiv.innerHTML = '';  // Clear previous results
 
+            try {
+                const responseRecent = await fetch('https://alessandropeca.github.io/data/ads_data_first_all.json');
+
+                if (!responseRecent.ok) {
+                    throw new Error(`Failed to fetch data: ${responseRecent.status} ${responseRecent.statusText}`);
+                }
+
+                const resultsRecent = await responseRecent.json();
+                console.log("API Response:", resultsRecent);
+                displayResults(resultsRecent, resultsDiv);
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+                console.error("Fetch Error:", error);
+            }
+        }
+
+        function displayResults(results, container) {
             if (results.response && results.response.docs) {
                 const list = document.createElement('ul');
                 results.response.docs.forEach(doc => {
@@ -122,16 +143,18 @@
                     item.innerHTML = `<strong>${doc.title[0]}</strong> by ${doc.author.join(', ')} (${doc.date}) - Citations: ${doc.citation_count} - <a href="https://ui.adsabs.harvard.edu/abs/${doc.bibcode}" target="_blank">ADS Link</a>`;
                     list.appendChild(item);
                 });
-                section.appendChild(list);
+                container.appendChild(list);
             } else {
-                section.innerHTML += '<p>No results found.</p>';
+                container.innerHTML += '<p>No results found.</p>';
             }
-
-            container.appendChild(section);
         }
 
-        // Automatically run the query when the page loads
-        window.onload = fetchADSData;
+        // Automatically run the queries when the page loads
+        window.onload = function() {
+            fetchADSData();
+            fetchRecentADSData();
+        };
+
     </script>
 </body>
 </html>
