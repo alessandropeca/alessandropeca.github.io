@@ -77,7 +77,6 @@ p {
     font-size: 18px;
 }
 
-
 .publications-box {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -102,6 +101,31 @@ footer {
     padding: 10px 0;
 }
 
+.btn , .contact-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px; /* Smaller padding for a smaller button */
+    font-size: 14px; /* Smaller font size */
+    color: white !important;
+    background-color: rgba(0, 80, 158, 0.8); /* Dark blue with 80% opacity */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+    margin-top: 0px; /* Add margin to separate from text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.btn:hover, .contact-btn:hover {
+    background-color: rgba(0, 102, 204, 0.8); /* Lighter blue with 80% opacity on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.btn i, .contact-btn i {
+    margin-right: 8px; /* Space between icon and text */
+    color: white;
+}
 
 @media (max-width: 768px) {
     .header-content {
