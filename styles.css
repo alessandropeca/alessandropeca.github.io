@@ -167,12 +167,12 @@ footer {
     }
 
     nav ul li {
-        margin: 10px 0; /* Add spacing between items */
+        margin: 5px 0; /* Reduce spacing between items */
     }
 
     nav ul li a {
-        font-size: 16px; /* Slightly smaller font size */
-        padding: 15px; /* Increase padding for easier tapping */
+        font-size: 14px; /* Reduce font size for smaller screens */
+        padding: 8px 12px; /* Reduce padding for easier tapping and to fit smaller screens */
     }
 
     .header-content {
@@ -200,7 +200,6 @@ footer {
         transition: all 0.3s linear;
     }
 }
-
 /* Hide hamburger menu on desktop */
 .hamburger {
     display: none;
