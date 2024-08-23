@@ -13,7 +13,7 @@ header {
     background-image: url('imgs/bkg_image_space.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 300px; /* Set a fixed height for the header */
     position: relative;
     text-align: center;
     color: white;
@@ -28,8 +28,9 @@ nav ul {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: 0;
+    bottom: 0; /* Position the navigation bar at the bottom of the header */
     width: 100%;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
 }
 
 nav ul li {
@@ -52,9 +53,12 @@ nav ul li a:hover {
 /* Header content styles */
 .header-content {
     position: absolute;
-    top: 44%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
+    padding: 0px;
+    text-align: center;
 }
 
 .profile-pic {
@@ -67,7 +71,7 @@ nav ul li a:hover {
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 36px;
     color: white;
 }
@@ -125,7 +129,8 @@ footer {
     padding: 10px 0;
 }
 
-.btn , .contact-btn {
+/* Button styling */
+.btn, .contact-btn {
     display: inline-flex;
     align-items: center;
     padding: 8px 16px; /* Smaller padding for a smaller button */
@@ -153,11 +158,27 @@ footer {
 
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
+    .profile-pic {
+        width: 100px; /* Reduce image size on smaller screens */
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        margin-top: 10px;
+    }
+
+    .header-content {
+        padding-top: 0; /* Remove extra padding on smaller screens */
+        text-align: center; /* Ensure text is centered */
+    }
+
     nav ul {
         flex-direction: row; /* Ensure the items stay in a row before wrapping */
-        position: static; /* Remove absolute positioning */
         background-color: rgba(0, 0, 0, 0.9); /* Darken background for mobile */
         flex-wrap: wrap; /* Wrap the menu items onto multiple lines */
+        position: static; /* Remove absolute positioning */
+        padding: 10px 0; /* Add some padding to the top for mobile */
     }
 
     nav ul li {
@@ -194,6 +215,7 @@ footer {
         transition: all 0.3s linear;
     }
 }
+
 /* Hide hamburger menu on desktop */
 .hamburger {
     display: none;
