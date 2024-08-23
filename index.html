@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
         .contact-links a {
             display: inline-block;
@@ -64,7 +64,7 @@
                 <!-- Results will be inserted here -->
             </div>
             <h3>Including Co-author Papers</h3>
-            <div class="publications-box" id="ads_query_results_first">
+            <div class="publications-box" id="ads_query_results_all">
                 <!-- Results will be inserted here -->
             </div>
         </section>
@@ -76,11 +76,11 @@
                 <a href="mailto:peca.alessandro@gmail.com" target="_blank" aria-label="Email" class="contact-btn">
                     <i class="fas fa-envelope fa-2x"></i> peca.alessandro@gmail.com
                 </a>
-                <a href="https://x.com/astro_peca" target="_blank" aria-label="X (formerly Twitter)" class="contact-btn">
-                    <i class="fab fa-twitter fa-2x"></i> X
+                <a href="https://x.com/astro_peca" target="_blank" aria-label="X/Twitter" class="contact-btn">
+                    <i class="fab fa-x-twitter fa-2x"></i> X
                 </a>
                 <a href="https://bsky.app/profile/xpecax.bsky.social" target="_blank" aria-label="Bluesky" class="contact-btn">
-                    <i class="fas fa-cloud fa-2x"></i> Bluesky
+                    <i class="fa-brands fa-bluesky fa-2x"></i> Bluesky
                 </a>
                 <a href="https://www.linkedin.com/in/alessandro-peca-188949b8/" target="_blank" aria-label="LinkedIn" class="contact-btn">
                     <i class="fab fa-linkedin fa-2x"></i> LinkedIn
@@ -93,7 +93,7 @@
     </footer>
 
     <script>
-        async function fetchADSData() {
+        async function fetchFirstADSData() {
             const resultsDiv = document.getElementById('ads_query_results_first');
             resultsDiv.innerHTML = '';  // Clear previous results
 
@@ -114,12 +114,12 @@
             }
         }
 
-        async function fetchRecentADSData() {
+        async function fetchAllADSData() {
             const resultsDiv = document.getElementById('ads_query_results_all');
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                const responseRecent = await fetch('https://alessandropeca.github.io/data/ads_data_first_all.json');
+                const responseRecent = await fetch('https://alessandropeca.github.io/data/ads_data_all.json');
 
                 if (!responseRecent.ok) {
                     throw new Error(`Failed to fetch data: ${responseRecent.status} ${responseRecent.statusText}`);
@@ -151,8 +151,8 @@
 
         // Automatically run the queries when the page loads
         window.onload = function() {
-            fetchADSData();
-            fetchRecentADSData();
+            fetchFirstADSData();
+            fetchAllADSData();
         };
 
     </script>
