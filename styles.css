@@ -35,21 +35,17 @@ nav ul {
     z-index: 100; /* Ensure the navigation is clickable */
 }
 
+
 nav ul li {
     margin: 0 15px;
-    flex-grow: 1; /* Make each list item take up equal space */
-    text-align: center;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 20px; /* Increase padding for larger clickable area */
-    display: block; /* Ensures the entire link area is clickable */
-    width: 100%; /* Make the link take up full width of its parent */
-    text-align: center;
-    box-sizing: border-box; /* Include padding in width calculation */
+    padding: 10px;
+    display: block;
 }
 
 nav ul li a:hover {
@@ -65,31 +61,22 @@ nav ul li a:hover {
         position: static; /* Remove absolute positioning for mobile */
         padding: 10px 0; /* Add padding for better tapping on mobile */
         z-index: 100; /* Ensure the nav is clickable */
+        width: 100%; /* Ensure the nav bar takes up full width */
     }
 
     nav ul li {
-        margin: 5px 0; /* Reduce vertical margin */
-        flex-grow: 1; /* Make each list item take up full width */
+        margin: 10px 0; /* Add some margin between items */
+        width: 100%; /* Ensure each list item takes up full width */
+        text-align: center; /* Center the text */
     }
 
     nav ul li a {
-        font-size: 16px; /* Adjust font size for readability on small screens */
-        padding: 12px 15px; /* Increase padding for easier tapping */
-        width: 100%; /* Make the buttons take up the full width */
+        font-size: 16px; /* Adjust font size for better readability */
+        padding: 15px; /* Ensure the padding is large enough for tapping */
+        width: 100%; /* Make sure the buttons take up full width */
+        display: block; /* Ensure the link area is fully clickable */
+        text-align: center; /* Center the link text */
     }
-}
-
-/* Header content styles */
-.header-content {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0 20px; /* Add padding to the sides */
-    width: 100%; /* Ensure the header content takes up the full width */
-    box-sizing: border-box; /* Include padding in width calculation */
-    padding: 0px;
-    text-align: center;
 }
 
 .profile-pic {
