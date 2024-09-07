@@ -55,27 +55,14 @@ nav ul li a:hover {
 
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* Stack items vertically on mobile */
-        background-color: rgba(0, 0, 0, 0.9); /* Darken background for mobile */
-        position: static; /* Remove absolute positioning for mobile */
-        padding: 10px 0; /* Add padding for better tapping on mobile */
-        z-index: 100; /* Ensure the nav is clickable */
-        width: 100%; /* Ensure the nav bar takes up full width */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 100; /* Ensure the navigation is on top */
     }
 
-    nav ul li {
-        margin: 10px 0; /* Add some margin between items */
-        width: 100%; /* Ensure each list item takes up full width */
-        text-align: center; /* Center the text */
-    }
-
-    nav ul li a {
-        font-size: 16px; /* Adjust font size for better readability */
-        padding: 15px; /* Ensure the padding is large enough for tapping */
-        width: 100%; /* Make sure the buttons take up full width */
-        display: block; /* Ensure the link area is fully clickable */
-        text-align: center; /* Center the link text */
+    #about {
+        padding-top: 60px; /* Add enough padding to avoid overlap */
     }
 }
 
