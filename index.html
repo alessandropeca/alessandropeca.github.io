@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alessandro Peca</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <style>
-        .contact-links a {
-            display: inline-block;
-            margin-right: 20px; /* Add space between icons */
-            margin-bottom: 10px; /* Optional: add some space below */
-            text-decoration: none; /* Remove underline from links */
-            color: inherit; /* Keep text color the same as surrounding text */
-        }
-        .contact-links a i {
-            vertical-align: middle; /* Vertically align icons with text */
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alessandro Peca</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <style>
+            .contact-links a {
+                display: inline-block;
+                margin-right: 20px; /* Add space between icons */
+                margin-bottom: 10px; /* Optional: add some space below */
+                text-decoration: none; /* Remove underline from links */
+                color: inherit; /* Keep text color the same as surrounding text */
+            }
+            .contact-links a i {
+                vertical-align: middle; /* Vertically align icons with text */
+            }
+    
+            /* Optional: Custom styling for the Twitter feed */
+            .twitter-timeline {
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                margin-top: 20px;
+            }
+        </style>
 <body>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     <header>
         <div class="header-content">
             <img src="imgs/A_Peca_profile_pic.jpg" alt="My Face" class="profile-pic">
@@ -37,12 +46,16 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello there! I’m Alessandro, a postdoc at Eureka Scientific and a Laboratory Associate at Yale University. I specialize in the study and evolution of active galactic nuclei (AGN) across various large-area surveys. My work involves several key projects focused on high-luminosity, heavily obscured AGN, both at high redshifts and in nearby galaxies. My expertise spans X-ray spectral/photometric analysis, AGN/galaxy SED fitting, multi-wavelength AGN counterpart matching, and the management of large catalogs and databases. I also have a deep love for statistics, which plays a crucial role in my research.
+            <p>Hello there! I’m Alessandro, a postdoc at Eureka Scientific and a Laboratory Associate at Yale University. I specialize in the study and evolution of active galactic nuclei (AGN) across various large-area surveys. My work involves several key projects focused on high-luminosity, heavily obscured AGN, both at high redshifts and in nearby galaxies. My expertise spans X-ray spectral/photometric analysis, AGN/galaxy SED fitting, multi-wavelength AGN counterpart matching, and the management of large catalogs and databases. I also have a deep love for statistics, which plays a crucial role in my research.</p>
                 <div>
                     <a href="data/my_cv.pdf" download="Alessandro_Peca_CV.pdf" class="btn">
                         <i class="fas fa-file-download"></i>&nbsp;Download My CV
                     </a>
+                    <!-- Twitter feed integration -->
+                    <p>What I am doing right now:</p>
+                    <a class="twitter-timeline" data-width="400" data-height="600" href="https://twitter.com/astro_peca">Tweets by astro_peca</a>
                 </div>
+                
             </section>
 
         <section id="research">
