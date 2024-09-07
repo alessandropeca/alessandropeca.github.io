@@ -19,6 +19,7 @@ header {
     color: white;
 }
 
+
 /* Navigation base styles */
 nav ul {
     list-style-type: none;
@@ -31,7 +32,9 @@ nav ul {
     bottom: 0; /* Position the navigation bar at the bottom of the header */
     width: 100%;
     flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    z-index: 100; /* Ensure the navigation is clickable */
 }
+
 
 nav ul li {
     margin: 0 15px;
@@ -229,3 +232,4 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
