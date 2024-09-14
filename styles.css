@@ -88,8 +88,9 @@ section {
     padding: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd; /* Light gray bottom border */
-    margin-bottom: 20px; /* Space below each section */
+    margin-bottom: 15px; /* Space below each section */
 }
+
 
 h2 {
     font-size: 32px; /* Larger size for main titles */
