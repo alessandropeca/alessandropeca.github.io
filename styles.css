@@ -86,9 +86,10 @@ h1 {
 /* Section styles */
 section {
     padding: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd; /* Light gray bottom border */
-    margin-bottom: 15px; /* Space below each section */
+    margin-bottom: 10px; /* Space below each section */
 }
 
 
