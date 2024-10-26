@@ -1,18 +1,18 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 130,
+        "QTime": 98,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-66c9075a-54bd868f69c21756743adf18",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-671d08d7-17a630f9760ec4493e6b22f9",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 14,
+        "numFound": 13,
         "start": 0,
         "docs": [
             {
@@ -40,7 +40,7 @@
                 "citation_count": 27
             },
             {
-                "bibcode": "2024arXiv240709617P",
+                "bibcode": "2024ApJ...974..156P",
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -55,11 +55,26 @@
                     "Torres-Alb\u00e0, N\u00faria",
                     "Treister, Ezequiel"
                 ],
-                "date": "2024-07-01T00:00:00Z",
+                "date": "2024-10-01T00:00:00Z",
                 "title": [
-                    "Stripe 82-XL: the $\\sim$54.8 deg$^2$ and $\\sim$18.8 Ms Chandra and XMM-Newton point source catalog and number of counts"
+                    "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
-                "citation_count": 0
+                "citation_count": 2
+            },
+            {
+                "bibcode": "2024Univ...10..245P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2024-06-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 1
             },
             {
                 "bibcode": "2021ApJ...906...90P",
@@ -84,43 +99,13 @@
                 "citation_count": 14
             },
             {
-                "bibcode": "2023arXiv231108449P",
+                "bibcode": "2024AAS...24345105P",
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
-                    "Marchesi, Stefano",
-                    "Hodges-Kluck, Edmund",
-                    "Foord, Adi"
+                    "Urry, Meg"
                 ],
-                "date": "2023-11-01T00:00:00Z",
-                "title": [
-                    "X-ray Redshift for obscured AGN with AXIS deep and intermediate surveys"
-                ],
-                "citation_count": 1
-            },
-            {
-                "bibcode": "2024Univ...10..245P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Marchesi, Stefano",
-                    "Hodges-Kluck, Edmund",
-                    "Foord, Adi"
-                ],
-                "date": "2024-06-01T00:00:00Z",
-                "title": [
-                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2024HEAD...2140006P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Urry, C."
-                ],
-                "date": "2024-05-01T00:00:00Z",
+                "date": "2024-02-01T00:00:00Z",
                 "title": [
                     "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
                 ],
@@ -151,13 +136,13 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2024AAS...24345105P",
+                "bibcode": "2024HEAD...2140006P",
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
-                    "Urry, Meg"
+                    "Urry, C."
                 ],
-                "date": "2024-02-01T00:00:00Z",
+                "date": "2024-05-01T00:00:00Z",
                 "title": [
                     "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
                 ],
@@ -177,23 +162,7 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2023HEAD...2040405P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Sicilian, Dominic",
-                    "Civano, Francesca",
-                    "Cappelluti, Nico",
-                    "Buchner, Johannes"
-                ],
-                "date": "2023-09-01T00:00:00Z",
-                "title": [
-                    "Estimating Obscured Chandra Source Catalog AGN Redshifts using the XZ Method and Machine Learning"
-                ],
-                "citation_count": 0
-            },
-            {
                 "bibcode": "2023yCat..19430162P",
-                "citation_count": 0,
                 "author": [
                     "Peca, A.",
                     "Cappelluti, N.",
@@ -213,7 +182,23 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "VizieR Online Data Catalog: 31.3 deg<SUP>2</SUP> Stripe 82X spectral analysis (Peca+,"
-                ]
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2023HEAD...2040405P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Sicilian, Dominic",
+                    "Civano, Francesca",
+                    "Cappelluti, Nico",
+                    "Buchner, Johannes"
+                ],
+                "date": "2023-09-01T00:00:00Z",
+                "title": [
+                    "Estimating Obscured Chandra Source Catalog AGN Redshifts using the XZ Method and Machine Learning"
+                ],
+                "citation_count": 0
             },
             {
                 "bibcode": "2023AAS...24113703P",
@@ -252,7 +237,6 @@
             },
             {
                 "bibcode": "2018agn..confE..55P",
-                "citation_count": 0,
                 "author": [
                     "Peca, Alessandro",
                     "Vignali, C.",
@@ -262,7 +246,8 @@
                 "date": "2018-10-01T00:00:00Z",
                 "title": [
                     "Obscured AGN in the field of J1030: the X-ray and optical/infrared perspective"
-                ]
+                ],
+                "citation_count": 0
             }
         ]
     }
