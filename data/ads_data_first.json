@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 1017,
+        "QTime": 41,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67e8148e-49e736a37ee840f009e04a42",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67e817e0-2564019902fa86c41156a51d",
             "rows": "200",
             "wt": "json"
         }
