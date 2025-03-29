@@ -1,13 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 274,
+        "QTime": 1017,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67b8df41-074558f03be595be5a803e29",
-            "boost": "add(doctype_boost, 1)",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67e8148e-49e736a37ee840f009e04a42",
             "rows": "200",
             "wt": "json"
         }
@@ -39,7 +38,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 32
+                "citation_count": 34
             },
             {
                 "bibcode": "2024ApJ...974..156P",
@@ -125,19 +124,6 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2024AAS...24345105P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Urry, Meg"
-                ],
-                "date": "2024-02-01T00:00:00Z",
-                "title": [
-                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
-                ],
-                "citation_count": 0
-            },
-            {
                 "bibcode": "2023yCat..19430162P",
                 "author": [
                     "Peca, A.",
@@ -158,6 +144,19 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "VizieR Online Data Catalog: 31.3 deg<SUP>2</SUP> Stripe 82X spectral analysis (Peca+,"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2024AAS...24345105P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, Meg"
+                ],
+                "date": "2024-02-01T00:00:00Z",
+                "title": [
+                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
                 ],
                 "citation_count": 0
             },
@@ -227,6 +226,40 @@
                 "citation_count": 0
             },
             {
+                "bibcode": "2025yCat..19740156P",
+                "author": [
+                    "Peca, A.",
+                    "Cappelluti, N.",
+                    "Lamassa, S.",
+                    "Urry, C. M.",
+                    "Moscetti, M.",
+                    "Marchesi, S.",
+                    "Sanders, D.",
+                    "Auge, C.",
+                    "Ghosh, A.",
+                    "Ananna, T. T.",
+                    "Torres-Alba, N.",
+                    "Treister, E."
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "VizieR Online Data Catalog: The Stripe 82-XL catalog (S82-XL) (Peca+, 2024)"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2025AAS...24516116P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael"
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "A NuSTAR and XMM-Newton View of Highly Obscured, Luminous, and Variable AGN in the BASS survey"
+                ],
+                "citation_count": 0
+            },
+            {
                 "bibcode": "2021cxo..prop.6191P",
                 "author": [
                     "Peca, Alessandro"
@@ -250,40 +283,6 @@
                     "Obscured AGN in the field of J1030: the X-ray and optical/infrared perspective"
                 ],
                 "citation_count": 0
-            },
-            {
-                "bibcode": "2025yCat..19740156P",
-                "citation_count": 0,
-                "author": [
-                    "Peca, A.",
-                    "Cappelluti, N.",
-                    "Lamassa, S.",
-                    "Urry, C. M.",
-                    "Moscetti, M.",
-                    "Marchesi, S.",
-                    "Sanders, D.",
-                    "Auge, C.",
-                    "Ghosh, A.",
-                    "Ananna, T. T.",
-                    "Torres-Alba, N.",
-                    "Treister, E."
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "VizieR Online Data Catalog: The Stripe 82-XL catalog (S82-XL) (Peca+, 2024)"
-                ]
-            },
-            {
-                "bibcode": "2025AAS...24516116P",
-                "citation_count": 0,
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael"
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "A NuSTAR and XMM-Newton View of Highly Obscured, Luminous, and Variable AGN in the BASS survey"
-                ]
             }
         ]
     }
