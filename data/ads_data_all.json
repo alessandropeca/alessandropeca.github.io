@@ -1,68 +1,39 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 206,
+        "QTime": 391,
         "params": {
             "q": "author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67b8df42-18099b8a52be4c9040556ea6",
-            "boost": "add(doctype_boost, 1)",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-67e81490-588fc16e4962f19d7320fcee",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 50,
+        "numFound": 51,
         "start": 0,
         "numFoundExact": true,
         "docs": [
             {
-                "bibcode": "2023ApJ...943..162P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Urry, C. Megan",
-                    "LaMassa, Stephanie",
-                    "Marchesi, Stefano",
-                    "Ananna, Tonima Tasnim",
-                    "Balokovi\u0107, Mislav",
-                    "Sanders, David",
-                    "Auge, Connor",
-                    "Treister, Ezequiel",
-                    "Powell, Meredith",
-                    "Turner, Tracey Jane",
-                    "Kirkpatrick, Allison",
-                    "Tian, Chuan"
-                ],
-                "date": "2023-02-01T00:00:00Z",
-                "title": [
-                    "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ],
-                "citation_count": 32
-            },
-            {
-                "bibcode": "2024ApJ...974..235L",
+                "bibcode": "2025ApJ...981..101L",
                 "author": [
                     "LaMassa, Stephanie",
-                    "Peca, Alessandro",
+                    "Farrow, Isabella",
                     "Urry, C. Megan",
-                    "Glikman, Eilat",
-                    "Ananna, Tonima Tasnim",
+                    "Trakhtenbrot, Benny",
                     "Auge, Connor",
-                    "Civano, Francesca",
-                    "Ghosh, Aritra",
-                    "Kirkpatrick, Allison",
                     "Koss, Michael J.",
-                    "Powell, Meredith",
-                    "Salvato, Mara",
-                    "Trakhtenbrot, Benny"
+                    "Peca, Alessandro",
+                    "Sanders, Dave",
+                    "Turner, Tracey Jane"
                 ],
-                "date": "2024-10-01T00:00:00Z",
+                "date": "2025-03-01T00:00:00Z",
                 "title": [
-                    "Stripe 82X Data Release 3: Multiwavelength Catalog with New Spectroscopic Redshifts and Black Hole Masses"
+                    "Estimating Black Hole Masses in Obscured Active Galactic Nuclei from X-Ray and Optical Emission Line Luminosities"
                 ],
-                "citation_count": 1
+                "citation_count": 0
             },
             {
                 "bibcode": "2025arXiv250209705K",
@@ -89,6 +60,82 @@
                 "title": [
                     "Tracing high-z Galaxies in X-rays with JWST and Chandra"
                 ],
+                "citation_count": 1
+            },
+            {
+                "bibcode": "2023ApJ...943..162P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C. Megan",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Ananna, Tonima Tasnim",
+                    "Balokovi\u0107, Mislav",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Treister, Ezequiel",
+                    "Powell, Meredith",
+                    "Turner, Tracey Jane",
+                    "Kirkpatrick, Allison",
+                    "Tian, Chuan"
+                ],
+                "date": "2023-02-01T00:00:00Z",
+                "title": [
+                    "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
+                ],
+                "citation_count": 34
+            },
+            {
+                "bibcode": "2024ApJ...974..235L",
+                "author": [
+                    "LaMassa, Stephanie",
+                    "Peca, Alessandro",
+                    "Urry, C. Megan",
+                    "Glikman, Eilat",
+                    "Ananna, Tonima Tasnim",
+                    "Auge, Connor",
+                    "Civano, Francesca",
+                    "Ghosh, Aritra",
+                    "Kirkpatrick, Allison",
+                    "Koss, Michael J.",
+                    "Powell, Meredith",
+                    "Salvato, Mara",
+                    "Trakhtenbrot, Benny"
+                ],
+                "date": "2024-10-01T00:00:00Z",
+                "title": [
+                    "Stripe 82X Data Release 3: Multiwavelength Catalog with New Spectroscopic Redshifts and Black Hole Masses"
+                ],
+                "citation_count": 1
+            },
+            {
+                "bibcode": "2025ApJ...981..202M",
+                "author": [
+                    "Magno, Macon",
+                    "Smith, Krista L.",
+                    "Wong, O. Ivy",
+                    "Mushotzky, Richard",
+                    "Vogel, Stuart",
+                    "Koss, Michael J.",
+                    "Ricci, Claudio",
+                    "Oh, Kyuseok",
+                    "Chang, Chin-Shin",
+                    "Barcos-Mu\u00f1oz, Loreto",
+                    "Bauer, Franz E.",
+                    "Peca, Alessandro",
+                    "Kakkad, Darshan",
+                    "Caglar, Turgay",
+                    "Trakhtenbrot, Benny",
+                    "Harrison, Fiona",
+                    "Stern, Daniel",
+                    "Urry, C. Megan",
+                    "Powell, Merry"
+                ],
+                "date": "2025-03-01T00:00:00Z",
+                "title": [
+                    "BASS. XLVII. 22 GHz Radio Atlas of Swift-BAT Selected AGN"
+                ],
                 "citation_count": 0
             },
             {
@@ -112,25 +159,6 @@
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
                 "citation_count": 2
-            },
-            {
-                "bibcode": "2025arXiv250114072L",
-                "author": [
-                    "LaMassa, S.",
-                    "Farrow, I.",
-                    "Urry, C. M.",
-                    "Trakhtenbrot, B.",
-                    "Auge, C.",
-                    "Koss, M. J.",
-                    "Peca, A.",
-                    "Sanders, D.",
-                    "Turner, T. J."
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "Estimating Black Hole Masses in Obscured AGN from X-ray and Optical Emission Line Luminosities"
-                ],
-                "citation_count": 0
             },
             {
                 "bibcode": "2023A&A...672A.179B",
@@ -165,29 +193,23 @@
                 "citation_count": 4
             },
             {
-                "bibcode": "2022A&A...668A.133D",
+                "bibcode": "2025arXiv250114072L",
                 "author": [
-                    "D'Amato, Q.",
-                    "Prandoni, I.",
-                    "Gilli, R.",
-                    "Vignali, C.",
-                    "Massardi, M.",
-                    "Liuzzo, E.",
-                    "Jagannathan, P.",
-                    "Brienza, M.",
-                    "Paladino, R.",
-                    "Mignoli, M.",
-                    "Marchesi, S.",
+                    "LaMassa, S.",
+                    "Farrow, I.",
+                    "Urry, C. M.",
+                    "Trakhtenbrot, B.",
+                    "Auge, C.",
+                    "Koss, M. J.",
                     "Peca, A.",
-                    "Chiaberge, M.",
-                    "Mazzolari, G.",
-                    "Norman, C."
+                    "Sanders, D.",
+                    "Turner, T. J."
                 ],
-                "date": "2022-12-01T00:00:00Z",
+                "date": "2025-01-01T00:00:00Z",
                 "title": [
-                    "A deep 1.4 GHz survey of the J1030 equatorial field: A new window on radio source populations across cosmic time"
+                    "Estimating Black Hole Masses in Obscured AGN from X-ray and Optical Emission Line Luminosities"
                 ],
-                "citation_count": 9
+                "citation_count": 0
             },
             {
                 "bibcode": "2019A&A...632A..26G",
@@ -228,6 +250,31 @@
                 "citation_count": 30
             },
             {
+                "bibcode": "2022A&A...668A.133D",
+                "author": [
+                    "D'Amato, Q.",
+                    "Prandoni, I.",
+                    "Gilli, R.",
+                    "Vignali, C.",
+                    "Massardi, M.",
+                    "Liuzzo, E.",
+                    "Jagannathan, P.",
+                    "Brienza, M.",
+                    "Paladino, R.",
+                    "Mignoli, M.",
+                    "Marchesi, S.",
+                    "Peca, A.",
+                    "Chiaberge, M.",
+                    "Mazzolari, G.",
+                    "Norman, C."
+                ],
+                "date": "2022-12-01T00:00:00Z",
+                "title": [
+                    "A deep 1.4 GHz survey of the J1030 equatorial field: A new window on radio source populations across cosmic time"
+                ],
+                "citation_count": 9
+            },
+            {
                 "bibcode": "2023A&A...676A..49S",
                 "author": [
                     "Signorini, Matilde",
@@ -252,35 +299,6 @@
                     "X-ray properties and obscured fraction of AGN in the J1030 Chandra field"
                 ],
                 "citation_count": 11
-            },
-            {
-                "bibcode": "2025arXiv250117224M",
-                "author": [
-                    "Magno, Macon",
-                    "Smith, Krista L.",
-                    "Wong, O. Ivy",
-                    "Mushotzky, Richard",
-                    "Vogel, Stuart",
-                    "Koss, Michael J.",
-                    "Ricci, Claudio",
-                    "Oh, Kyuseok",
-                    "Chang, Chin-Shin",
-                    "Barcos-Mu\u00f1oz, Loreto",
-                    "Bauer, Franz E.",
-                    "Peca, Alessandro",
-                    "Kakkad, Darshan",
-                    "Caglar, Turgay",
-                    "Trakhtenbrot, Benny",
-                    "Harrison, Fiona",
-                    "Stern, Daniel",
-                    "Urry, C. Megan",
-                    "Powell, Merry"
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "BASS XLVII: 22 GHz Radio Atlas of Swift-BAT Selected AGN"
-                ],
-                "citation_count": 0
             },
             {
                 "bibcode": "2023A&A...673A..97M",
@@ -309,21 +327,6 @@
                 "citation_count": 2
             },
             {
-                "bibcode": "2024Univ...10..245P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Marchesi, Stefano",
-                    "Hodges-Kluck, Edmund",
-                    "Foord, Adi"
-                ],
-                "date": "2024-06-01T00:00:00Z",
-                "title": [
-                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ],
-                "citation_count": 2
-            },
-            {
                 "bibcode": "2025arXiv250116708T",
                 "author": [
                     "Tokayer, Yarone M.",
@@ -348,6 +351,21 @@
                 "citation_count": 0
             },
             {
+                "bibcode": "2024Univ...10..245P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2024-06-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 2
+            },
+            {
                 "bibcode": "2021ApJ...906...90P",
                 "author": [
                     "Peca, Alessandro",
@@ -368,93 +386,6 @@
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
                 "citation_count": 16
-            },
-            {
-                "bibcode": "2022MNRAS.515...82C",
-                "author": [
-                    "Coleman, Brandon",
-                    "Kirkpatrick, Allison",
-                    "Cooke, Kevin C.",
-                    "Glikman, Eilat",
-                    "LaMassa, Stephanie",
-                    "Marchesi, Stefano",
-                    "Peca, Alessandro",
-                    "Treister, Ezequiel",
-                    "Auge, Connor",
-                    "Urry, C. Megan",
-                    "Sanders, Dave",
-                    "Turner, Tracey Jane",
-                    "Ananna, Tonima Tasnim"
-                ],
-                "date": "2022-09-01T00:00:00Z",
-                "title": [
-                    "Accretion history of AGN: Estimating the host galaxy properties in X-ray luminous AGN from z = 0-3"
-                ],
-                "citation_count": 5
-            },
-            {
-                "bibcode": "2022MmSAI..93b..64R",
-                "author": [
-                    "RisalitI, G.",
-                    "Caccianiga, A.",
-                    "Gilli, R.",
-                    "Paolillo, M.",
-                    "Amati, L.",
-                    "Bargiacchi, G.",
-                    "Belladitta, S.",
-                    "Dallacasa, D.",
-                    "Diana, A.",
-                    "Di Girolamo, T.",
-                    "Haardt, F.",
-                    "Ighina, L.",
-                    "Lusso, E.",
-                    "Marchesi, S.",
-                    "Moretti, A.",
-                    "Nanni, R.",
-                    "Nardini, E.",
-                    "Peca, A.",
-                    "Piedipalumbo, E.",
-                    "Sacchi, A.",
-                    "Sbarrato, T.",
-                    "Severgnini, P.",
-                    "Signorini, M.",
-                    "Spingola, C.",
-                    "Trefoloni, B."
-                ],
-                "date": "2022-11-01T00:00:00Z",
-                "title": [
-                    "Quasars at High-Redshift: Physics and Cosmology"
-                ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2020A&A...641L...6D",
-                "author": [
-                    "D'Amato, Q.",
-                    "Gilli, R.",
-                    "Prandoni, I.",
-                    "Vignali, C.",
-                    "Massardi, M.",
-                    "Mignoli, M.",
-                    "Cucciati, O.",
-                    "Morishita, T.",
-                    "Decarli, R.",
-                    "Brusa, M.",
-                    "Calura, F.",
-                    "Balmaverde, B.",
-                    "Chiaberge, M.",
-                    "Liuzzo, E.",
-                    "Nanni, R.",
-                    "Peca, A.",
-                    "Pensabene, A.",
-                    "Tozzi, P.",
-                    "Norman, C."
-                ],
-                "date": "2020-09-01T00:00:00Z",
-                "title": [
-                    "Discovery of molecular gas fueling galaxy growth in a protocluster at z = 1.7"
-                ],
-                "citation_count": 20
             },
             {
                 "bibcode": "2020A&A...637A..52N",
@@ -488,6 +419,58 @@
                 "citation_count": 14
             },
             {
+                "bibcode": "2022MNRAS.515...82C",
+                "author": [
+                    "Coleman, Brandon",
+                    "Kirkpatrick, Allison",
+                    "Cooke, Kevin C.",
+                    "Glikman, Eilat",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Peca, Alessandro",
+                    "Treister, Ezequiel",
+                    "Auge, Connor",
+                    "Urry, C. Megan",
+                    "Sanders, Dave",
+                    "Turner, Tracey Jane",
+                    "Ananna, Tonima Tasnim"
+                ],
+                "date": "2022-09-01T00:00:00Z",
+                "title": [
+                    "Accretion history of AGN: Estimating the host galaxy properties in X-ray luminous AGN from z = 0-3"
+                ],
+                "citation_count": 5
+            },
+            {
+                "bibcode": "2020A&A...641L...6D",
+                "author": [
+                    "D'Amato, Q.",
+                    "Gilli, R.",
+                    "Prandoni, I.",
+                    "Vignali, C.",
+                    "Massardi, M.",
+                    "Mignoli, M.",
+                    "Cucciati, O.",
+                    "Morishita, T.",
+                    "Decarli, R.",
+                    "Brusa, M.",
+                    "Calura, F.",
+                    "Balmaverde, B.",
+                    "Chiaberge, M.",
+                    "Liuzzo, E.",
+                    "Nanni, R.",
+                    "Peca, A.",
+                    "Pensabene, A.",
+                    "Tozzi, P.",
+                    "Norman, C."
+                ],
+                "date": "2020-09-01T00:00:00Z",
+                "title": [
+                    "Discovery of molecular gas fueling galaxy growth in a protocluster at z = 1.7"
+                ],
+                "citation_count": 20
+            },
+            {
                 "bibcode": "2022ApJ...936...39S",
                 "author": [
                     "Sicilian, Dominic",
@@ -501,6 +484,25 @@
                     "X-Ray Redshifts of Obscured Chandra Source Catalog Active Galactic Nuclei"
                 ],
                 "citation_count": 3
+            },
+            {
+                "bibcode": "2024AAS...24310414L",
+                "author": [
+                    "LaMassa, Stephanie",
+                    "Farrow, Isabella",
+                    "Trakhtenbrot, Benny",
+                    "Urry, C.",
+                    "Peca, Alessandro",
+                    "Turner, Jane",
+                    "Koss, Michael",
+                    "Auge, Connor",
+                    "Sanders, David"
+                ],
+                "date": "2024-02-01T00:00:00Z",
+                "title": [
+                    "Measuring Black Hole Masses in Type 2 AGN"
+                ],
+                "citation_count": 0
             },
             {
                 "bibcode": "2021A&A...656A.117M",
@@ -539,21 +541,37 @@
                 "citation_count": 3
             },
             {
-                "bibcode": "2024AAS...24310414L",
+                "bibcode": "2022MmSAI..93b..64R",
                 "author": [
-                    "LaMassa, Stephanie",
-                    "Farrow, Isabella",
-                    "Trakhtenbrot, Benny",
-                    "Urry, C.",
-                    "Peca, Alessandro",
-                    "Turner, Jane",
-                    "Koss, Michael",
-                    "Auge, Connor",
-                    "Sanders, David"
+                    "RisalitI, G.",
+                    "Caccianiga, A.",
+                    "Gilli, R.",
+                    "Paolillo, M.",
+                    "Amati, L.",
+                    "Bargiacchi, G.",
+                    "Belladitta, S.",
+                    "Dallacasa, D.",
+                    "Diana, A.",
+                    "Di Girolamo, T.",
+                    "Haardt, F.",
+                    "Ighina, L.",
+                    "Lusso, E.",
+                    "Marchesi, S.",
+                    "Moretti, A.",
+                    "Nanni, R.",
+                    "Nardini, E.",
+                    "Peca, A.",
+                    "Piedipalumbo, E.",
+                    "Sacchi, A.",
+                    "Sbarrato, T.",
+                    "Severgnini, P.",
+                    "Signorini, M.",
+                    "Spingola, C.",
+                    "Trefoloni, B."
                 ],
-                "date": "2024-02-01T00:00:00Z",
+                "date": "2022-11-01T00:00:00Z",
                 "title": [
-                    "Measuring Black Hole Masses in Type 2 AGN"
+                    "Quasars at High-Redshift: Physics and Cosmology"
                 ],
                 "citation_count": 0
             },
@@ -596,6 +614,28 @@
                 "citation_count": 4
             },
             {
+                "bibcode": "2019A&A...631L..10D",
+                "author": [
+                    "Decarli, Roberto",
+                    "Mignoli, Marco",
+                    "Gilli, Roberto",
+                    "Balmaverde, Barbara",
+                    "Brusa, Marcella",
+                    "Cappelluti, Nico",
+                    "Comastri, Andrea",
+                    "Nanni, Riccardo",
+                    "Peca, Alessandro",
+                    "Pensabene, Antonio",
+                    "Vanzella, Eros",
+                    "Vignali, Cristian"
+                ],
+                "date": "2019-11-01T00:00:00Z",
+                "title": [
+                    "Testing the paradigm: First spectroscopic evidence of a quasar-galaxy Mpc-scale association at cosmic dawn"
+                ],
+                "citation_count": 11
+            },
+            {
                 "bibcode": "2023HEAD...2010067P",
                 "author": [
                     "Peca, Alessandro",
@@ -616,41 +656,6 @@
                 "date": "2023-09-01T00:00:00Z",
                 "title": [
                     "On the cosmic evolution of AGN obscuration and the X-ray luminosity function: XMM-Newton and Chandra spectral analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2024HEAD...2110206L",
-                "author": [
-                    "LaMassa, Stephanie",
-                    "Peca, Alessandro",
-                    "Urry, C. Megan",
-                    "Ananna, Tonima Tasnim",
-                    "Glikman, Eilat",
-                    "Cappelluti, Nico",
-                    "Kirkpatrick, Allison",
-                    "Sanders, David",
-                    "Auge, Connor",
-                    "Turner, T. Jane",
-                    "Koss, Michael",
-                    "Trakhtenbrot, Benny"
-                ],
-                "date": "2024-05-01T00:00:00Z",
-                "title": [
-                    "Updated Stripe 82X Catalog Release: Black Hole Masses and New Spectroscopic Redshifts"
-                ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2024AAS...24345105P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Urry, Meg"
-                ],
-                "date": "2024-02-01T00:00:00Z",
-                "title": [
-                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
                 ],
                 "citation_count": 0
             },
@@ -679,6 +684,28 @@
                 "citation_count": 7
             },
             {
+                "bibcode": "2024HEAD...2110206L",
+                "author": [
+                    "LaMassa, Stephanie",
+                    "Peca, Alessandro",
+                    "Urry, C. Megan",
+                    "Ananna, Tonima Tasnim",
+                    "Glikman, Eilat",
+                    "Cappelluti, Nico",
+                    "Kirkpatrick, Allison",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Turner, T. Jane",
+                    "Koss, Michael",
+                    "Trakhtenbrot, Benny"
+                ],
+                "date": "2024-05-01T00:00:00Z",
+                "title": [
+                    "Updated Stripe 82X Catalog Release: Black Hole Masses and New Spectroscopic Redshifts"
+                ],
+                "citation_count": 0
+            },
+            {
                 "bibcode": "2023yCat..19430162P",
                 "author": [
                     "Peca, A.",
@@ -703,26 +730,17 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2019A&A...631L..10D",
+                "bibcode": "2024AAS...24345105P",
                 "author": [
-                    "Decarli, Roberto",
-                    "Mignoli, Marco",
-                    "Gilli, Roberto",
-                    "Balmaverde, Barbara",
-                    "Brusa, Marcella",
-                    "Cappelluti, Nico",
-                    "Comastri, Andrea",
-                    "Nanni, Riccardo",
                     "Peca, Alessandro",
-                    "Pensabene, Antonio",
-                    "Vanzella, Eros",
-                    "Vignali, Cristian"
+                    "Cappelluti, Nico",
+                    "Urry, Meg"
                 ],
-                "date": "2019-11-01T00:00:00Z",
+                "date": "2024-02-01T00:00:00Z",
                 "title": [
-                    "Testing the paradigm: First spectroscopic evidence of a quasar-galaxy Mpc-scale association at cosmic dawn"
+                    "Unveiling the Dark Side of the Universe: Harnessing the Power of Big Data to Reveal a Hidden and Heavly Obscured AGN Population"
                 ],
-                "citation_count": 11
+                "citation_count": 0
             },
             {
                 "bibcode": "2023HEAD...2010031P",
@@ -734,6 +752,21 @@
                 "date": "2023-09-01T00:00:00Z",
                 "title": [
                     "AGN-DB: A Spectro-Photometric and Morphological Database of AGN"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2025AAS...24520419S",
+                "author": [
+                    "Schussheim, Rebecca",
+                    "Urry, C. Megan",
+                    "Auge, Connor",
+                    "Peca, Alessandro",
+                    "Malenkiy, Vasilisa"
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "Little Red Dots: The Search for AGN in z &gt; 7 Galaxies Imaged with the JADES Survey"
                 ],
                 "citation_count": 0
             },
@@ -805,21 +838,25 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2020IAUS..352..168D",
+                "bibcode": "2025yCat..19740235L",
                 "author": [
-                    "D'Amato, Q.",
-                    "Prandoni, I.",
-                    "Gilli, R.",
-                    "Massardi, M.",
-                    "Liuzzo, E.",
-                    "Mignoli, M.",
-                    "Vignali, C.",
+                    "Lamassa, S.",
                     "Peca, A.",
-                    "Nanni, R."
+                    "Urry, C. M.",
+                    "Glikman, E.",
+                    "Ananna, T. T.",
+                    "Auge, C.",
+                    "Civano, F.",
+                    "Ghosh, A.",
+                    "Kirkpatrick, A.",
+                    "Koss, M. J.",
+                    "Powell, M.",
+                    "Salvato, M.",
+                    "Trakhtenbrot, B."
                 ],
-                "date": "2020-01-01T00:00:00Z",
+                "date": "2025-01-01T00:00:00Z",
                 "title": [
-                    "The molecular gas content in a protocluster at z = 17: Star formation and AGN feedback"
+                    "VizieR Online Data Catalog: Stripe 82X DR3 catalog: new sp. redshifts (LaMassa+, 2024)"
                 ],
                 "citation_count": 0
             },
@@ -850,6 +887,79 @@
                 "citation_count": 0
             },
             {
+                "bibcode": "2025yCat..19740156P",
+                "author": [
+                    "Peca, A.",
+                    "Cappelluti, N.",
+                    "Lamassa, S.",
+                    "Urry, C. M.",
+                    "Moscetti, M.",
+                    "Marchesi, S.",
+                    "Sanders, D.",
+                    "Auge, C.",
+                    "Ghosh, A.",
+                    "Ananna, T. T.",
+                    "Torres-Alba, N.",
+                    "Treister, E."
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "VizieR Online Data Catalog: The Stripe 82-XL catalog (S82-XL) (Peca+, 2024)"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2025AAS...24516116P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael"
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "A NuSTAR and XMM-Newton View of Highly Obscured, Luminous, and Variable AGN in the BASS survey"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2025AAS...24541108U",
+                "author": [
+                    "Urry, C.",
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "LaMassa, Stephanie",
+                    "Ananna, Tonima Tasnim",
+                    "Marchesi, Stefano",
+                    "Torres-Alba, Nuria",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Treister, Ezequiel"
+                ],
+                "date": "2025-01-01T00:00:00Z",
+                "title": [
+                    "Stripe 82-XL: the 54.8 deg<SUP>2</SUP>; and 18.8 Ms Chandra and XMM-Newton Point Source Catalog, Number of Counts, and Multi-band Counterpars"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2020IAUS..352..168D",
+                "author": [
+                    "D'Amato, Q.",
+                    "Prandoni, I.",
+                    "Gilli, R.",
+                    "Massardi, M.",
+                    "Liuzzo, E.",
+                    "Mignoli, M.",
+                    "Vignali, C.",
+                    "Peca, A.",
+                    "Nanni, R."
+                ],
+                "date": "2020-01-01T00:00:00Z",
+                "title": [
+                    "The molecular gas content in a protocluster at z = 17: Star formation and AGN feedback"
+                ],
+                "citation_count": 0
+            },
+            {
                 "bibcode": "2021cxo..prop.6191P",
                 "author": [
                     "Peca, Alessandro"
@@ -857,6 +967,34 @@
                 "date": "2021-09-01T00:00:00Z",
                 "title": [
                     "The Large STRIPE-82 X-Ray (S82XL) Survey"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2021arXiv211214401C",
+                "author": [
+                    "Curtright, T. L.",
+                    "Cao, Z.",
+                    "Peca, A.",
+                    "Sarker, D.",
+                    "Shrestha, B. D."
+                ],
+                "date": "2021-12-01T00:00:00Z",
+                "title": [
+                    "Lie Groups and Propagators Exemplified"
+                ],
+                "citation_count": 2
+            },
+            {
+                "bibcode": "2021AAS...23713814C",
+                "author": [
+                    "Cook, C.",
+                    "Kirkpatrick, A.",
+                    "Peca, A."
+                ],
+                "date": "2021-01-01T00:00:00Z",
+                "title": [
+                    "Fitting Cold Quasar Spectra in Xspec"
                 ],
                 "citation_count": 0
             },
@@ -921,32 +1059,35 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2021AAS...23713814C",
+                "bibcode": "2020yCat..36370052N",
                 "author": [
-                    "Cook, C.",
-                    "Kirkpatrick, A.",
-                    "Peca, A."
+                    "Nanni, R.",
+                    "Gilli, R.",
+                    "Vignali, C.",
+                    "Mignoli, M.",
+                    "Peca, A.",
+                    "Marchesi, S.",
+                    "Annunziatella, M.",
+                    "Brusa, M.",
+                    "Calura, F.",
+                    "Cappelluti, N.",
+                    "Chiaberge, M.",
+                    "Comastri, A.",
+                    "Iwasawa, K.",
+                    "Lanzuisi, G.",
+                    "Liuzzo, E.",
+                    "Marchesini, D.",
+                    "Prandoni, I.",
+                    "Tozzi, P.",
+                    "Vito, F.",
+                    "Zamorani, G.",
+                    "Norman, C."
                 ],
-                "date": "2021-01-01T00:00:00Z",
+                "date": "2020-04-01T00:00:00Z",
                 "title": [
-                    "Fitting Cold Quasar Spectra in Xspec"
+                    "VizieR Online Data Catalog: Deep Chandra survey in J1030+0524 field (Nanni+, 2020)"
                 ],
                 "citation_count": 0
-            },
-            {
-                "bibcode": "2021arXiv211214401C",
-                "author": [
-                    "Curtright, T. L.",
-                    "Cao, Z.",
-                    "Peca, A.",
-                    "Sarker, D.",
-                    "Shrestha, B. D."
-                ],
-                "date": "2021-12-01T00:00:00Z",
-                "title": [
-                    "Lie Groups and Propagators Exemplified"
-                ],
-                "citation_count": 2
             },
             {
                 "bibcode": "2018agn..confE..47G",
@@ -988,37 +1129,6 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2020yCat..36370052N",
-                "author": [
-                    "Nanni, R.",
-                    "Gilli, R.",
-                    "Vignali, C.",
-                    "Mignoli, M.",
-                    "Peca, A.",
-                    "Marchesi, S.",
-                    "Annunziatella, M.",
-                    "Brusa, M.",
-                    "Calura, F.",
-                    "Cappelluti, N.",
-                    "Chiaberge, M.",
-                    "Comastri, A.",
-                    "Iwasawa, K.",
-                    "Lanzuisi, G.",
-                    "Liuzzo, E.",
-                    "Marchesini, D.",
-                    "Prandoni, I.",
-                    "Tozzi, P.",
-                    "Vito, F.",
-                    "Zamorani, G.",
-                    "Norman, C."
-                ],
-                "date": "2020-04-01T00:00:00Z",
-                "title": [
-                    "VizieR Online Data Catalog: Deep Chandra survey in J1030+0524 field (Nanni+, 2020)"
-                ],
-                "citation_count": 0
-            },
-            {
                 "bibcode": "2018agn..confE..55P",
                 "author": [
                     "Peca, Alessandro",
@@ -1056,98 +1166,6 @@
                     "VizieR Online Data Catalog: Deep 1.4GHz survey of the J1030 field (D'Amato+, 2022)"
                 ],
                 "citation_count": 0
-            },
-            {
-                "bibcode": "2025AAS...24520419S",
-                "citation_count": 0,
-                "author": [
-                    "Schussheim, Rebecca",
-                    "Urry, C. Megan",
-                    "Auge, Connor",
-                    "Peca, Alessandro",
-                    "Malenkiy, Vasilisa"
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "Little Red Dots: The Search for AGN in z &gt; 7 Galaxies Imaged with the JADES Survey"
-                ]
-            },
-            {
-                "bibcode": "2025yCat..19740156P",
-                "citation_count": 0,
-                "author": [
-                    "Peca, A.",
-                    "Cappelluti, N.",
-                    "Lamassa, S.",
-                    "Urry, C. M.",
-                    "Moscetti, M.",
-                    "Marchesi, S.",
-                    "Sanders, D.",
-                    "Auge, C.",
-                    "Ghosh, A.",
-                    "Ananna, T. T.",
-                    "Torres-Alba, N.",
-                    "Treister, E."
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "VizieR Online Data Catalog: The Stripe 82-XL catalog (S82-XL) (Peca+, 2024)"
-                ]
-            },
-            {
-                "bibcode": "2025yCat..19740235L",
-                "citation_count": 0,
-                "author": [
-                    "Lamassa, S.",
-                    "Peca, A.",
-                    "Urry, C. M.",
-                    "Glikman, E.",
-                    "Ananna, T. T.",
-                    "Auge, C.",
-                    "Civano, F.",
-                    "Ghosh, A.",
-                    "Kirkpatrick, A.",
-                    "Koss, M. J.",
-                    "Powell, M.",
-                    "Salvato, M.",
-                    "Trakhtenbrot, B."
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "VizieR Online Data Catalog: Stripe 82X DR3 catalog: new sp. redshifts (LaMassa+, 2024)"
-                ]
-            },
-            {
-                "bibcode": "2025AAS...24541108U",
-                "citation_count": 0,
-                "author": [
-                    "Urry, C.",
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "LaMassa, Stephanie",
-                    "Ananna, Tonima Tasnim",
-                    "Marchesi, Stefano",
-                    "Torres-Alba, Nuria",
-                    "Sanders, David",
-                    "Auge, Connor",
-                    "Treister, Ezequiel"
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "Stripe 82-XL: the 54.8 deg<SUP>2</SUP>; and 18.8 Ms Chandra and XMM-Newton Point Source Catalog, Number of Counts, and Multi-band Counterpars"
-                ]
-            },
-            {
-                "bibcode": "2025AAS...24516116P",
-                "citation_count": 0,
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael"
-                ],
-                "date": "2025-01-01T00:00:00Z",
-                "title": [
-                    "A NuSTAR and XMM-Newton View of Highly Obscured, Luminous, and Variable AGN in the BASS survey"
-                ]
             }
         ]
     }
