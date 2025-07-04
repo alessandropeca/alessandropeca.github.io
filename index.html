@@ -28,7 +28,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about">Aboutt</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -48,97 +48,123 @@
 
         <section id="research">
             <h2>Research</h2>
-            <p>This page is still work in progress, but you can find information on my main projects here:</p>
-            <ul style="padding-left: 20px;"> <!-- Added padding to move bullets to the right -->
-                <!-- BASS Survey Item -->
-                <li style="margin-bottom: 50px;">
-                    <strong style="font-size: 1.2em;">The BASS survey:</strong> 
-                    <br>
-                    Obscuration and variability studies of nearby AGN [work in progress 🚧 ⏳] 
-                    <br>
-                    <a href="https://www.bass-survey.com/" target="_blank">Learn more about BASS</a>
-                </li>
-                
-                <!-- Expanded Stripe 82X Survey Item with Bold Title and Paper Link -->
-                <li style="margin-bottom: 50px;">
-                    <strong style="font-size: 1.2em;">Stripe 82X survey:</strong>
-                    <br> 
-                    We have conducted a population study of X-ray AGN up to redshift 4, where we characterized AGN properties. In particular, we traced the fraction of obscured AGN and built an X-ray luminosity function that holds at high luminosities.
-                    <br>
-                    Below is an image showing the evolution of the obscured fraction:
-                    <br>
-                    <img src="imgs/obscured_AGN_evolution.jpg" alt="Obscured Fraction Evolution" style="width:200%;max-width:1000px; margin-top: 20px; margin-bottom: 10px;">
-                    <br>
-                    You can find a useful python tool to use our X-ray luminosity function here: 
-                    <a href="https://github.com/alessandropeca/S82X" target="_blank">Tool for Number Density of AGN and</a>
-                    <strong> NEW: </strong> Launch the XLF Tool in Binder:
-                    <a href="https://mybinder.org/v2/gh/alessandropeca/S82X/HEAD?filepath=XLF/Peca23_XLF_Usage.ipynb" target="_blank">
-                        <img src="https://mybinder.org/badge_logo.svg" alt="Binder logo" style="vertical-align: middle;">
-                    </a>
-                    <br>
-                    Read the full paper here: <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...943..162P/abstract" target="_blank">Stripe 82X Paper</a>
-                    <br>
-                    <a href="https://project.ifa.hawaii.edu/aha/" target="_blank">Learn more about Stripe 82X</a>
-                </li>
-        
-                <!-- New Stripe 82-XL Survey Item -->
-                <li style="margin-bottom: 50px;">
-                    <strong style="font-size: 1.2em;">Stripe 82-XL survey:</strong> 
-                    <br>
-                    Using available archival data, we built Stripe 82-XL, a survey that increases the area and depth of its predecessor, making it an important contribution to the field of X-ray surveys.
-                    <br>
-                    Below is an example image of the S82-XL contribution to field:
-                    <br>
-                    <img src="imgs/sens_area_curves_hard_S82XL.png" alt="Stripe 82-XL Sensitivity Area Curves" style="width:100%;max-width:520px; margin-top: 10px">
-                    <br>
-                    Read the full paper here: <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240709617P/abstract" target="_blank">Stripe 82-XL Paper</a>
-                    <br>
-                    Download the Stripe 82-XL catalog here: <a href="https://github.com/alessandropeca/S82X" target="_blank">Stripe 82-XL Catalog</a>
-                    <br>
-                    <a href="https://project.ifa.hawaii.edu/aha/" target="_blank">Learn more about Stripe 82-XL</a>
-                </li>
-        
-                <!-- Other research projects -->
-                <li style="margin-bottom: 50px;">
-                    <strong style="font-size: 1.2em;">X-ray redshift for the AXIS probe:</strong> We applied the Peca et al. (2021) method to estimate how many reliable redshift estimates can be obtained using AXIS X-ray spectra alone for obscured AGN in the planned intermediate and deep surveys.
-                    <br>
-                    Below is an example image:
-                    <br>
-                    <img src="imgs/axis_example_z4.png" alt="J1030 Survey Example" style="width:100%;max-width:500px;">
-                    <br>
-                    Read the full paper here: <a href="https://ui.adsabs.harvard.edu/abs/2024Univ...10..245P/abstract" target="_blank">AXIS white paper</a>
-                    <br>
-                    <a href="https://blog.umd.edu/axis/" target="_blank">Learn more about the AXIS probe</a>
-                </li>
+            <p class="section-intro">Explore my main research projects focused on active galactic nuclei (AGN) studies across various surveys and methodologies.</p>
+            
+            <div class="research-grid">
+                <!-- BASS Survey Card -->
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3>The BASS Survey</h3>
+                        <div class="status-badge">Work in Progress 🚧</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Obscuration and variability studies of nearby AGN</p>
+                        <div class="card-links">
+                            <a href="https://www.bass-survey.com/" target="_blank" class="card-link">Learn more about BASS</a>
+                        </div>
+                    </div>
+                </div>
 
-                <li style="margin-bottom: 50px;">
-                    <strong style="font-size: 1.2em;">The AGN DataBase (AGN-DB):</strong> 
-                    <br>
-                    The AGN-Database aims to be the largest repository of all discovered AGN, at all redshifts and wavelengths (radio to X-rays) [work in progress 🚧 ⏳].
-                    <br>
-                    <a href="http://agndb.physics.miami.edu/" target="_blank">Learn more the AGN-DB project</a>
-                </li>
+                <!-- Stripe 82X Survey Card -->
+                <div class="research-card featured">
+                    <div class="card-header">
+                        <h3>Stripe 82X Survey</h3>
+                        <div class="status-badge published">Published</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Population study of X-ray AGN up to redshift 4, characterizing AGN properties and tracing the fraction of obscured AGN with an X-ray luminosity function.</p>
+                        <div class="card-image">
+                            <img src="imgs/obscured_AGN_evolution.jpg" alt="Obscured Fraction Evolution" loading="lazy">
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/alessandropeca/S82X" target="_blank" class="card-link">GitHub Tool</a>
+                            <a href="https://mybinder.org/v2/gh/alessandropeca/S82X/HEAD?filepath=XLF/Peca23_XLF_Usage.ipynb" target="_blank" class="card-link binder">
+                                <img src="https://mybinder.org/badge_logo.svg" alt="Binder" class="binder-badge">
+                            </a>
+                            <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...943..162P/abstract" target="_blank" class="card-link paper">📄 Paper</a>
+                            <a href="https://project.ifa.hawaii.edu/aha/" target="_blank" class="card-link">Project Page</a>
+                        </div>
+                    </div>
+                </div>
 
-                <li style="margin-bottom: 40px;">
-                    <strong style="font-size: 1.2em;">The J1030 Chandra deep field:</strong>
-                    <br>
-                    We define a method to derive reliable redshift estimates for obscured AGN using X-ray spectra alone. This method can be applied to deep X-ray surveys, especially where sources have only X-ray data and/or poor photometry.
-                    <br>
-                    Below is an example image:
-                    <br>
-                    <img src="imgs/j1030_example_redshift.png" alt="J1030 Survey Example" style="width:100%;max-width:800px;">
-                    <br>
-                    Read the full paper here: <a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...906...90P/abstract" target="_blank">J1030 Paper</a>
-                    <br>
-                    <a href="http://www.oabo.inaf.it/~LBTz6/1030/index.html" target="_blank">Learn more about J1030</a>
-                </li>
-            </ul>
-            <br>
-            <p style="font-size: 1.2em;">You can also find my work on 
-                <a href="https://orcid.org/0000-0003-2196-3298" target="_blank">ORCID</a>,  
-                <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20%20author%3A%22Peca%2C%20A.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank">NASA/ADS</a>, and
-                <a href="https://scholar.google.com/citations?user=ni2KYcwAAAAJ&hl=it&oi=ao" target="_blank">Google Scholar</a>.
-            </p>
+                <!-- Stripe 82-XL Survey Card -->
+                <div class="research-card featured">
+                    <div class="card-header">
+                        <h3>Stripe 82-XL Survey</h3>
+                        <div class="status-badge published">Published</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Built from archival data, Stripe 82-XL increases the area and depth of its predecessor, making an important contribution to X-ray surveys.</p>
+                        <div class="card-image">
+                            <img src="imgs/sens_area_curves_hard_S82XL.png" alt="Stripe 82-XL Sensitivity Area Curves" loading="lazy">
+                        </div>
+                        <div class="card-links">
+                            <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240709617P/abstract" target="_blank" class="card-link paper">📄 Paper</a>
+                            <a href="https://github.com/alessandropeca/S82X" target="_blank" class="card-link">Download Catalog</a>
+                            <a href="https://project.ifa.hawaii.edu/aha/" target="_blank" class="card-link">Project Page</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AXIS Probe Card -->
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3>X-ray Redshift for AXIS Probe</h3>
+                        <div class="status-badge published">Published</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Applied the Peca et al. (2021) method to estimate reliable redshift estimates using AXIS X-ray spectra for obscured AGN in planned surveys.</p>
+                        <div class="card-image">
+                            <img src="imgs/axis_example_z4.png" alt="AXIS Example" loading="lazy">
+                        </div>
+                        <div class="card-links">
+                            <a href="https://ui.adsabs.harvard.edu/abs/2024Univ...10..245P/abstract" target="_blank" class="card-link paper">📄 White Paper</a>
+                            <a href="https://blog.umd.edu/axis/" target="_blank" class="card-link">AXIS Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AGN Database Card -->
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3>AGN Database (AGN-DB)</h3>
+                        <div class="status-badge">Work in Progress 🚧</div>
+                    </div>
+                    <div class="card-content">
+                        <p>The AGN-Database aims to be the largest repository of all discovered AGN, at all redshifts and wavelengths (radio to X-rays).</p>
+                        <div class="card-links">
+                            <a href="http://agndb.physics.miami.edu/" target="_blank" class="card-link">AGN-DB Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- J1030 Field Card -->
+                <div class="research-card">
+                    <div class="card-header">
+                        <h3>J1030 Chandra Deep Field</h3>
+                        <div class="status-badge published">Published</div>
+                    </div>
+                    <div class="card-content">
+                        <p>Developed a method to derive reliable redshift estimates for obscured AGN using X-ray spectra alone, applicable to deep X-ray surveys.</p>
+                        <div class="card-image">
+                            <img src="imgs/j1030_example_redshift.png" alt="J1030 Survey Example" loading="lazy">
+                        </div>
+                        <div class="card-links">
+                            <a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...906...90P/abstract" target="_blank" class="card-link paper">📄 Paper</a>
+                            <a href="http://www.oabo.inaf.it/~LBTz6/1030/index.html" target="_blank" class="card-link">Project Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-footer">
+                <p>You can also find my work on:</p>
+                <div class="profile-links">
+                    <a href="https://orcid.org/0000-0003-2196-3298" target="_blank" class="profile-link">ORCID</a>
+                    <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20%20author%3A%22Peca%2C%20A.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="profile-link">NASA/ADS</a>
+                    <a href="https://scholar.google.com/citations?user=ni2KYcwAAAAJ&hl=it&oi=ao" target="_blank" class="profile-link">Google Scholar</a>
+                </div>
+            </div>
         </section>
 
         <section id="publications">
