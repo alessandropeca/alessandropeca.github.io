@@ -1,0 +1,38 @@
+name: Update Bibliography
+
+on:
+  schedule:
+    # Run every Monday at 9 AM UTC (weekly)
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-bibliography:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests matplotlib numpy
+        
+    - name: Update bibliography
+      env:
+        ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+      run: |
+        python update_bibliography.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ads_data_first.json data/ads_data_all.json
+        git diff --staged --quiet || git commit -m "Update bibliography data - $(date '+%Y-%m-%d')"
+        git push
