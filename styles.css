@@ -540,22 +540,105 @@ html {
 }
 
 /* Publications Section */
-#publications h3 {
-    text-align: center;
+.publications-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.publications-header h3 {
+    margin: 0;
+    text-align: left;
     position: relative;
     padding-bottom: 0.5rem;
 }
 
-#publications h3::after {
+.publications-header h3::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 60px;
     height: 3px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 2px;
+}
+
+.pub-link-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pub-link-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+/* XLF Tools Section */
+.xlf-tools-section {
+    background: #f8fafc;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #3b82f6;
+}
+
+.xlf-image {
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+}
+
+.xlf-image img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.xlf-image:hover img {
+    transform: scale(1.02);
+}
+
+.xlf-tools-section h4 {"
+    margin: 0 0 0.8rem 0;
+    color: #1f2937;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.xlf-tools {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.xlf-tool {
+    background: #e0e7ff !important;
+    color: #3730a3 !important;
+    border: 1px solid #c7d2fe;
+}
+
+.xlf-tool:hover {
+    background: #c7d2fe !important;
+    color: #312e81 !important;
 }
 
 /* Responsive contact section */
@@ -569,6 +652,34 @@ html {
         width: 100%;
         max-width: 300px;
         justify-content: center;
+    }
+    
+    .publications-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .publications-header h3 {
+        text-align: center;
+        align-self: center;
+    }
+    
+    .publications-header h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .pub-link-btn {
+        align-self: center;
+    }
+    
+    .xlf-tools {
+        flex-direction: column;
+    }
+    
+    .xlf-tool {
+        text-align: center;
     }
 }
 
