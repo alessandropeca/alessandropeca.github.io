@@ -348,6 +348,12 @@ html {
     background: rgba(34, 197, 94, 0.9);
 }
 
+.status-badge.accepted {
+    background: rgba(255, 255, 255, 0.9);
+    color: #374151;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 .card-content {
     padding: 1.5rem;
 }
@@ -617,7 +623,31 @@ html {
     transform: scale(1.02);
 }
 
-.xlf-tools-section h4 {"
+/* Card Images Layout */
+.card-images {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.card-image.small {
+    flex: 1;
+    min-width: 200px;
+}
+
+.card-image.small img {
+    max-height: 200px;
+}
+
+/* Image Reference Styling */
+.image-ref {
+    color: #6b7280;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.xlf-tools-section h4 {
     margin: 0 0 0.8rem 0;
     color: #1f2937;
     font-size: 1.1em;
@@ -680,6 +710,14 @@ html {
     
     .xlf-tool {
         text-align: center;
+    }
+    
+    .card-images {
+        flex-direction: column;
+    }
+    
+    .card-image.small {
+        min-width: 100%;
     }
 }
 
