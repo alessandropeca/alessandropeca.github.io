@@ -676,14 +676,42 @@ html {
     #contact .contact-links {
         flex-direction: column;
         align-items: center;
+        gap: 0.8rem;
     }
     
     #contact .contact-btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
         justify-content: center;
+        padding: 1rem 1.2rem;
+        font-size: 0.95rem;
     }
     
+    #contact .contact-btn i {
+        margin-right: 0.8rem;
+        font-size: 1.2em;
+    }
+}
+
+/* Extra small screens (phones in portrait) */
+@media (max-width: 480px) {
+    #contact .contact-links {
+        gap: 0.6rem;
+    }
+    
+    #contact .contact-btn {
+        max-width: 260px;
+        padding: 0.9rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    #contact .contact-btn i {
+        margin-right: 0.6rem;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
     .publications-header {
         flex-direction: column;
         align-items: flex-start;
