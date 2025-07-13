@@ -230,7 +230,7 @@
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                const responseAll = await fetch('https://alessandropeca.github.io/data/ads_data_first.json');
+                const responseAll = await fetch('data/ads_data_first.json');
 
                 if (!responseAll.ok) {
                     throw new Error(`Failed to fetch data: ${responseAll.status} ${responseAll.statusText}`);
@@ -251,7 +251,7 @@
             resultsDiv.innerHTML = '';  // Clear previous results
 
             try {
-                const responseRecent = await fetch('https://alessandropeca.github.io/data/ads_data_all.json');
+                const responseRecent = await fetch('data/ads_data_all.json');
 
                 if (!responseRecent.ok) {
                     throw new Error(`Failed to fetch data: ${responseRecent.status} ${responseRecent.statusText}`);
