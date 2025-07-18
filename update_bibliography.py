@@ -83,7 +83,7 @@ def main():
         titles = [paper['title'][0] for paper in filtered_papers]
         authors = [paper['author'] for paper in filtered_papers]
         dates = [datetime.strptime(paper['date'], '%Y-%m-%dT%H:%M:%S%z').date() for paper in filtered_papers]
-        citation_counts = [paper['citation_count'] for paper in filtered_papers]
+        citation_counts = [paper.get('citation_count', 0) for paper in filtered_papers]
 
         # Number of papers per year
         years = [date.year for date in dates]
