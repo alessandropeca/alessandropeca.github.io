@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 200,
+        "QTime": 276,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-687e09ad-1bcf55fe27843f2e5ef4b485",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6887441a-7ca91aa2706ee7100cfa8c48",
             "rows": "200",
             "wt": "json"
         }
@@ -16,6 +16,40 @@
         "start": 0,
         "numFoundExact": true,
         "docs": [
+            {
+                "bibcode": "2025arXiv250710674P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Oh, Kyuseok",
+                    "Ricci, Claudio",
+                    "Trakhtenbrot, Benny",
+                    "Mushotzky, Richard",
+                    "Treister, Ezequiel",
+                    "Urry, C. Megan",
+                    "Pizzetti, Andrealuna",
+                    "Ichikawa, Kohei",
+                    "Tortosa, Alessia",
+                    "Ricci, Federica",
+                    "Signorini, Matilde",
+                    "Kakkad, Darshan",
+                    "Chang, Chin-Shin",
+                    "Mazzolari, Giovanni",
+                    "Caglar, Turgay",
+                    "Magno, Macon",
+                    "del Moral-Castro, Ignacio",
+                    "Boorman, Peter G.",
+                    "Ananna, Tonima T.",
+                    "Harrison, Fiona",
+                    "Stern, Daniel",
+                    "Sanders, David"
+                ],
+                "date": "2025-07-01T00:00:00Z",
+                "title": [
+                    "BASS. XLIX. Characterization of highly luminous and obscured AGNs: local X-ray and [NeV]$\u03bb$3426 emission in comparison with the high-redshift Universe"
+                ],
+                "citation_count": 0
+            },
             {
                 "bibcode": "2023ApJ...943..162P",
                 "author": [
@@ -78,40 +112,6 @@
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
                 "citation_count": 5
-            },
-            {
-                "bibcode": "2025arXiv250710674P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Oh, Kyuseok",
-                    "Ricci, Claudio",
-                    "Trakhtenbrot, Benny",
-                    "Mushotzky, Richard",
-                    "Treister, Ezequiel",
-                    "Urry, C. Megan",
-                    "Pizzetti, Andrealuna",
-                    "Ichikawa, Kohei",
-                    "Tortosa, Alessia",
-                    "Ricci, Federica",
-                    "Signorini, Matilde",
-                    "Kakkad, Darshan",
-                    "Chang, Chin-Shin",
-                    "Mazzolari, Giovanni",
-                    "Caglar, Turgay",
-                    "Magno, Macon",
-                    "del Moral-Castro, Ignacio",
-                    "Boorman, Peter G.",
-                    "Ananna, Tonima T.",
-                    "Harrison, Fiona",
-                    "Stern, Daniel",
-                    "Sanders, David"
-                ],
-                "date": "2025-07-01T00:00:00Z",
-                "title": [
-                    "BASS. XLIX. Characterization of highly luminous and obscured AGNs: local X-ray and [NeV]$\u03bb$3426 emission in comparison with the high-redshift Universe"
-                ],
-                "citation_count": 0
             },
             {
                 "bibcode": "2024Univ...10..245P",
