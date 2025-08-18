@@ -1,18 +1,18 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 173,
+        "QTime": 289,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6899b8b6-7b892cea7c85b6c373267aec",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68a2f306-12cba59a659e7eb76c7f8a80",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 18,
+        "numFound": 17,
         "start": 0,
         "numFoundExact": true,
         "docs": [
@@ -52,6 +52,7 @@
             },
             {
                 "bibcode": "2023ApJ...943..162P",
+                "citation_count": 43,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -71,11 +72,10 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ],
-                "citation_count": 43
+                ]
             },
             {
-                "bibcode": "2025arXiv250507963P",
+                "bibcode": "2025ApJ...989...84P",
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -85,14 +85,15 @@
                     "Cerini, Giulia",
                     "Boorman, Peter G."
                 ],
-                "date": "2025-05-01T00:00:00Z",
+                "date": "2025-08-01T00:00:00Z",
                 "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultra-Fast Inflow?"
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ],
                 "citation_count": 1
             },
             {
                 "bibcode": "2024ApJ...974..156P",
+                "citation_count": 5,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -110,11 +111,11 @@
                 "date": "2024-10-01T00:00:00Z",
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
-                ],
-                "citation_count": 5
+                ]
             },
             {
                 "bibcode": "2024Univ...10..245P",
+                "citation_count": 4,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -125,11 +126,11 @@
                 "date": "2024-06-01T00:00:00Z",
                 "title": [
                     "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ],
-                "citation_count": 4
+                ]
             },
             {
                 "bibcode": "2021ApJ...906...90P",
+                "citation_count": 20,
                 "author": [
                     "Peca, Alessandro",
                     "Vignali, Cristian",
@@ -147,24 +148,6 @@
                 "date": "2021-01-01T00:00:00Z",
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
-                ],
-                "citation_count": 20
-            },
-            {
-                "bibcode": "2025ApJ...989...84P",
-                "citation_count": 0,
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ]
             }
         ]
