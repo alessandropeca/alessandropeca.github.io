@@ -1,23 +1,23 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 217,
+        "QTime": 289,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68ac2ca9-20484a813b6a00a7115c2bd3",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68b5674f-43191b1f153d639557ddc3f4",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 18,
+        "numFound": 17,
         "start": 0,
         "numFoundExact": true,
         "docs": [
             {
-                "bibcode": "2025arXiv250710674P",
+                "bibcode": "2025ApJ...990....3P",
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -44,9 +44,26 @@
                     "Stern, Daniel",
                     "Sanders, David"
                 ],
-                "date": "2025-07-01T00:00:00Z",
+                "date": "2025-09-01T00:00:00Z",
                 "title": [
-                    "BASS. XLIX. Characterization of highly luminous and obscured AGNs: local X-ray and [NeV]$\u03bb$3426 emission in comparison with the high-redshift Universe"
+                    "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
+                ],
+                "citation_count": 1
+            },
+            {
+                "bibcode": "2025ApJ...989...84P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Ricci, Claudio",
+                    "Urry, C. Megan",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G."
+                ],
+                "date": "2025-08-01T00:00:00Z",
+                "title": [
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ],
                 "citation_count": 1
             },
@@ -72,24 +89,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 44
-            },
-            {
-                "bibcode": "2025ApJ...989...84P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
-                ],
-                "citation_count": 1
+                "citation_count": 45
             },
             {
                 "bibcode": "2024ApJ...974..156P",
@@ -149,40 +149,6 @@
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
                 "citation_count": 21
-            },
-            {
-                "bibcode": "2025ApJ...990....3P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Oh, Kyuseok",
-                    "Ricci, Claudio",
-                    "Trakhtenbrot, Benny",
-                    "Mushotzky, Richard",
-                    "Treister, Ezequiel",
-                    "Urry, C. Megan",
-                    "Pizzetti, Andrealuna",
-                    "Ichikawa, Kohei",
-                    "Tortosa, Alessia",
-                    "Ricci, Federica",
-                    "Signorini, Matilde",
-                    "Kakkad, Darshan",
-                    "Chang, Chin-Shin",
-                    "Mazzolari, Giovanni",
-                    "Caglar, Turgay",
-                    "Magno, Macon",
-                    "del Moral-Castro, Ignacio",
-                    "Boorman, Peter G.",
-                    "Ananna, Tonima T.",
-                    "Harrison, Fiona",
-                    "Stern, Daniel",
-                    "Sanders, David"
-                ],
-                "date": "2025-09-01T00:00:00Z",
-                "title": [
-                    "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
-                ],
-                "citation_count": 0
             }
         ]
     }
