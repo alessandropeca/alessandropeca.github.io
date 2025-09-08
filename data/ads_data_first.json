@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 289,
+        "QTime": 418,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68b5674f-43191b1f153d639557ddc3f4",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68bea192-6c2ccdbe48a9a0f85b9c6048",
             "rows": "200",
             "wt": "json"
         }
@@ -51,23 +51,6 @@
                 "citation_count": 1
             },
             {
-                "bibcode": "2025ApJ...989...84P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
-                ],
-                "citation_count": 1
-            },
-            {
                 "bibcode": "2023ApJ...943..162P",
                 "author": [
                     "Peca, Alessandro",
@@ -89,7 +72,24 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 45
+                "citation_count": 44
+            },
+            {
+                "bibcode": "2025ApJ...989...84P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Ricci, Claudio",
+                    "Urry, C. Megan",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G."
+                ],
+                "date": "2025-08-01T00:00:00Z",
+                "title": [
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
+                ],
+                "citation_count": 1
             },
             {
                 "bibcode": "2024ApJ...974..156P",
