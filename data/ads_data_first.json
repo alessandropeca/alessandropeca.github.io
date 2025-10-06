@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 356,
+        "QTime": 659,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68da5137-46d255d732623eed6d21a694",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68e38bb1-473592d3055e7a953e82820b",
             "rows": "200",
             "wt": "json"
         }
@@ -18,6 +18,7 @@
         "docs": [
             {
                 "bibcode": "2025ApJ...990....3P",
+                "citation_count": 1,
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -47,8 +48,7 @@
                 "date": "2025-09-01T00:00:00Z",
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
-                ],
-                "citation_count": 1
+                ]
             },
             {
                 "bibcode": "2023ApJ...943..162P",
@@ -72,7 +72,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 44
+                "citation_count": 45
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -93,7 +93,6 @@
             },
             {
                 "bibcode": "2024ApJ...974..156P",
-                "citation_count": 7,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -111,11 +110,11 @@
                 "date": "2024-10-01T00:00:00Z",
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
-                ]
+                ],
+                "citation_count": 7
             },
             {
                 "bibcode": "2024Univ...10..245P",
-                "citation_count": 4,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -126,11 +125,11 @@
                 "date": "2024-06-01T00:00:00Z",
                 "title": [
                     "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ]
+                ],
+                "citation_count": 4
             },
             {
                 "bibcode": "2021ApJ...906...90P",
-                "citation_count": 22,
                 "author": [
                     "Peca, Alessandro",
                     "Vignali, Cristian",
@@ -148,7 +147,8 @@
                 "date": "2021-01-01T00:00:00Z",
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
-                ]
+                ],
+                "citation_count": 22
             }
         ]
     }
