@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 196,
+        "QTime": 661,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68c7dc05-07485b9d39c71f44167e0579",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68ff3ba4-781dca3f491d312930b3834d",
             "rows": "200",
             "wt": "json"
         }
@@ -18,7 +18,6 @@
         "docs": [
             {
                 "bibcode": "2025ApJ...990....3P",
-                "citation_count": 1,
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -48,7 +47,8 @@
                 "date": "2025-09-01T00:00:00Z",
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
-                ]
+                ],
+                "citation_count": 1
             },
             {
                 "bibcode": "2023ApJ...943..162P",
@@ -72,7 +72,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 45
+                "citation_count": 46
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -148,7 +148,7 @@
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
-                "citation_count": 21
+                "citation_count": 22
             }
         ]
     }
