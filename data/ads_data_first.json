@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 661,
+        "QTime": 859,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-68ff3ba4-781dca3f491d312930b3834d",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6908763b-4f73f0185d5eb2cf2452948b",
             "rows": "200",
             "wt": "json"
         }
@@ -52,6 +52,7 @@
             },
             {
                 "bibcode": "2023ApJ...943..162P",
+                "citation_count": 47,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -71,8 +72,7 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ],
-                "citation_count": 46
+                ]
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -89,7 +89,7 @@
                 "title": [
                     "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ],
-                "citation_count": 1
+                "citation_count": 2
             },
             {
                 "bibcode": "2024ApJ...974..156P",
