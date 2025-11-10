@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 859,
+        "QTime": 264,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6908763b-4f73f0185d5eb2cf2452948b",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6911b0ae-4ef8aae025de4718075c57d2",
             "rows": "200",
             "wt": "json"
         }
@@ -52,7 +52,7 @@
             },
             {
                 "bibcode": "2023ApJ...943..162P",
-                "citation_count": 47,
+                "citation_count": 48,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
