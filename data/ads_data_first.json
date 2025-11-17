@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 264,
+        "QTime": 932,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6911b0ae-4ef8aae025de4718075c57d2",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-691aeb5c-516267130f4d66566ae153c3",
             "rows": "200",
             "wt": "json"
         }
@@ -52,7 +52,6 @@
             },
             {
                 "bibcode": "2023ApJ...943..162P",
-                "citation_count": 48,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -72,7 +71,8 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ]
+                ],
+                "citation_count": 49
             },
             {
                 "bibcode": "2025ApJ...989...84P",
