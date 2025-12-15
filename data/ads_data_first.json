@@ -1,13 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 353,
+        "QTime": 571,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69369bb9-4effa3ff71df6d8573ff7bc8",
-            "boost": "add(doctype_boost, 1)",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-693fd72a-142fba944aea3a4d60653b08",
             "rows": "200",
             "wt": "json"
         }
@@ -112,7 +111,7 @@
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
-                "citation_count": 7
+                "citation_count": 8
             },
             {
                 "bibcode": "2024Univ...10..245P",
