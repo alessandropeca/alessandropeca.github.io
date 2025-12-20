@@ -1,18 +1,18 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 932,
+        "QTime": 571,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-691aeb5c-516267130f4d66566ae153c3",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-693fd72a-142fba944aea3a4d60653b08",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 17,
+        "numFound": 18,
         "start": 0,
         "numFoundExact": true,
         "docs": [
@@ -48,7 +48,7 @@
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
                 ],
-                "citation_count": 1
+                "citation_count": 2
             },
             {
                 "bibcode": "2023ApJ...943..162P",
@@ -111,7 +111,7 @@
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
-                "citation_count": 7
+                "citation_count": 8
             },
             {
                 "bibcode": "2024Univ...10..245P",
