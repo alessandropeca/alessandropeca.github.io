@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 106,
+        "QTime": 399,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-695b86d2-2d0cbcf1004e0110350a408a",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6964c14c-245839f358c1b4f5563f6239",
             "rows": "200",
             "wt": "json"
         }
@@ -89,7 +89,7 @@
                 "title": [
                     "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ],
-                "citation_count": 2
+                "citation_count": 3
             },
             {
                 "bibcode": "2024ApJ...974..156P",
