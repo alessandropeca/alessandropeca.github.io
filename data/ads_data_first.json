@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 123,
+        "QTime": 399,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69ae9a15-5d335f4649dcfdec546d9814",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69b7d6ec-79df6cf426c288ff61ae928b",
             "rows": "200",
             "wt": "json"
         }
@@ -72,7 +72,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 53
+                "citation_count": 55
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -148,7 +148,7 @@
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
-                "citation_count": 22
+                "citation_count": 23
             }
         ]
     }
