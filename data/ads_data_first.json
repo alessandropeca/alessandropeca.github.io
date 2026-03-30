@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 124,
+        "QTime": 292,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69c1110b-79c575e54899671f5bb705d2",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69ca4ee5-5fafbc2910a77d747ea618c2",
             "rows": "200",
             "wt": "json"
         }
@@ -48,7 +48,7 @@
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
                 ],
-                "citation_count": 4
+                "citation_count": 6
             },
             {
                 "bibcode": "2023ApJ...943..162P",
