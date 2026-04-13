@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 351,
+        "QTime": 250,
         "params": {
             "q": "author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69d387af-2b9d25e64b0d9df9433f5641",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69dcca92-4ba50c5b39e264fa65aa974e",
             "rows": "200",
             "wt": "json"
         }
@@ -494,33 +494,37 @@
                 "citation_count": 18
             },
             {
-                "bibcode": "2025ApJ...981..202M",
+                "bibcode": "2025ApJ...990...86G",
                 "author": [
-                    "Magno, Macon",
-                    "Smith, Krista L.",
-                    "Wong, O. Ivy",
-                    "Mushotzky, Richard",
-                    "Vogel, Stuart",
-                    "Koss, Michael J.",
+                    "Gupta, Kriti Kamal",
                     "Ricci, Claudio",
-                    "Oh, Kyuseok",
-                    "Chang, Chin-Shin",
-                    "Barcos-Mu\u00f1oz, Loreto",
-                    "Bauer, Franz E.",
-                    "Peca, Alessandro",
-                    "Kakkad, Darshan",
-                    "Caglar, Turgay",
+                    "Tortosa, Alessia",
+                    "Temple, Matthew J.",
+                    "Koss, Michael J.",
                     "Trakhtenbrot, Benny",
-                    "Harrison, Fiona",
+                    "Bauer, Franz E.",
+                    "Treister, Ezequiel",
+                    "Mushotzky, Richard",
+                    "Kammoun, Elias",
+                    "Papadakis, Iossif",
+                    "Oh, Kyuseok",
+                    "Rojas, Alejandra",
+                    "Chang, Chin-Shin",
+                    "Diaz, Yaherlyn",
+                    "Jana, Arghajit",
+                    "Kakkad, Darshan",
+                    "del Moral-Castro, Ignacio",
+                    "Peca, Alessandro",
+                    "Powell, Meredith C.",
                     "Stern, Daniel",
                     "Urry, C. Megan",
-                    "Powell, Merry"
+                    "Harrison, Fiona"
                 ],
-                "date": "2025-03-01T00:00:00Z",
+                "date": "2025-09-01T00:00:00Z",
                 "title": [
-                    "BASS. XLVII. 22 GHz Radio Atlas of Swift-BAT Selected AGN"
+                    "BASS. LIII. The Eddington Ratio as the Primary Regulator of the Fraction of X-Ray Emission in Active Galactic Nuclei"
                 ],
-                "citation_count": 9
+                "citation_count": 2
             },
             {
                 "bibcode": "2026arXiv260315729V",
@@ -573,37 +577,33 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2025ApJ...990...86G",
+                "bibcode": "2025ApJ...981..202M",
                 "author": [
-                    "Gupta, Kriti Kamal",
-                    "Ricci, Claudio",
-                    "Tortosa, Alessia",
-                    "Temple, Matthew J.",
-                    "Koss, Michael J.",
-                    "Trakhtenbrot, Benny",
-                    "Bauer, Franz E.",
-                    "Treister, Ezequiel",
+                    "Magno, Macon",
+                    "Smith, Krista L.",
+                    "Wong, O. Ivy",
                     "Mushotzky, Richard",
-                    "Kammoun, Elias",
-                    "Papadakis, Iossif",
+                    "Vogel, Stuart",
+                    "Koss, Michael J.",
+                    "Ricci, Claudio",
                     "Oh, Kyuseok",
-                    "Rojas, Alejandra",
                     "Chang, Chin-Shin",
-                    "Diaz, Yaherlyn",
-                    "Jana, Arghajit",
-                    "Kakkad, Darshan",
-                    "del Moral-Castro, Ignacio",
+                    "Barcos-Mu\u00f1oz, Loreto",
+                    "Bauer, Franz E.",
                     "Peca, Alessandro",
-                    "Powell, Meredith C.",
+                    "Kakkad, Darshan",
+                    "Caglar, Turgay",
+                    "Trakhtenbrot, Benny",
+                    "Harrison, Fiona",
                     "Stern, Daniel",
                     "Urry, C. Megan",
-                    "Harrison, Fiona"
+                    "Powell, Merry"
                 ],
-                "date": "2025-09-01T00:00:00Z",
+                "date": "2025-03-01T00:00:00Z",
                 "title": [
-                    "BASS. LIII. The Eddington Ratio as the Primary Regulator of the Fraction of X-Ray Emission in Active Galactic Nuclei"
+                    "BASS. XLVII. 22 GHz Radio Atlas of Swift-BAT Selected AGN"
                 ],
-                "citation_count": 2
+                "citation_count": 9
             },
             {
                 "bibcode": "2025ApJ...994..181T",
@@ -634,6 +634,30 @@
                     "BASS. LIV. Physical Properties of AGN-hosting Galaxy Mergers from Multiwavelength SED Fitting"
                 ],
                 "citation_count": 0
+            },
+            {
+                "bibcode": "2023ApJ...943..162P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C. Megan",
+                    "LaMassa, Stephanie",
+                    "Marchesi, Stefano",
+                    "Ananna, Tonima Tasnim",
+                    "Balokovi\u0107, Mislav",
+                    "Sanders, David",
+                    "Auge, Connor",
+                    "Treister, Ezequiel",
+                    "Powell, Meredith",
+                    "Turner, Tracey Jane",
+                    "Kirkpatrick, Allison",
+                    "Tian, Chuan"
+                ],
+                "date": "2023-02-01T00:00:00Z",
+                "title": [
+                    "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
+                ],
+                "citation_count": 59
             },
             {
                 "bibcode": "2025ApJ...991..116W",
@@ -667,30 +691,6 @@
                 "citation_count": 5
             },
             {
-                "bibcode": "2023ApJ...943..162P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Urry, C. Megan",
-                    "LaMassa, Stephanie",
-                    "Marchesi, Stefano",
-                    "Ananna, Tonima Tasnim",
-                    "Balokovi\u0107, Mislav",
-                    "Sanders, David",
-                    "Auge, Connor",
-                    "Treister, Ezequiel",
-                    "Powell, Meredith",
-                    "Turner, Tracey Jane",
-                    "Kirkpatrick, Allison",
-                    "Tian, Chuan"
-                ],
-                "date": "2023-02-01T00:00:00Z",
-                "title": [
-                    "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ],
-                "citation_count": 59
-            },
-            {
                 "bibcode": "2025ApJ...981..101L",
                 "author": [
                     "LaMassa, Stephanie",
@@ -708,6 +708,63 @@
                     "Estimating Black Hole Masses in Obscured Active Galactic Nuclei from X-Ray and Optical Emission Line Luminosities"
                 ],
                 "citation_count": 2
+            },
+            {
+                "bibcode": "2026arXiv260310176M",
+                "author": [
+                    "Mazzolari, Giovanni",
+                    "Gilli, Roberto",
+                    "Mignoli, Marco",
+                    "Brusa, Marcella",
+                    "Prandoni, Isabella",
+                    "Vito, Fabio",
+                    "Delvecchio, Ivan",
+                    "Lanzuisi, Giorgio",
+                    "Peca, Alessandro",
+                    "Comastri, Andrea",
+                    "Marchesi, Stefano",
+                    "Chiaberge, Marco",
+                    "Brienza, Marisa",
+                    "Vignali, Cristian",
+                    "Signorini, Matilde",
+                    "D'Amato, Quirino",
+                    "Gentile, Fabrizio",
+                    "Iwasawa, Kazushi",
+                    "Norman, Colin",
+                    "Traina, Alberto",
+                    "Loiacono, Federica",
+                    "Baldini, Pietro",
+                    "Annunziatella, Marianna",
+                    "Decarli, Roberto"
+                ],
+                "date": "2026-03-01T00:00:00Z",
+                "title": [
+                    "Radio selection of heavily obscured AGN in the J1030 field: unraveling a missing Compton-thick population"
+                ],
+                "citation_count": 2
+            },
+            {
+                "bibcode": "2026ApJ...999L..11D",
+                "author": [
+                    "Droguett-Callejas, Macarena",
+                    "Treister, Ezequiel",
+                    "Barcos-Mu\u00f1oz, Loreto",
+                    "Johnstone, Makoto",
+                    "Bauer, Franz E.",
+                    "Kawamuro, Taiki",
+                    "Torres-Alb\u00e0, N\u00faria",
+                    "Ricci, Claudio",
+                    "Koss, Michael",
+                    "Song, Yiqing",
+                    "Peca, Alessandro",
+                    "Evans, Aaron",
+                    "Gonz\u00e1lez, Jorge"
+                ],
+                "date": "2026-03-01T00:00:00Z",
+                "title": [
+                    "Probing Heavily Obscured Active Galactic Nuclei in Major Galaxy Mergers Using the Millimeter\u2500X-Ray Correlation"
+                ],
+                "citation_count": 0
             },
             {
                 "bibcode": "2025ApJ...988..185G",
@@ -731,44 +788,6 @@
                     "Nuclear Spectral Energy Distributions of Luminous Infrared Galaxies"
                 ],
                 "citation_count": 0
-            },
-            {
-                "bibcode": "2019A&A...632A..26G",
-                "author": [
-                    "Gilli, R.",
-                    "Mignoli, M.",
-                    "Peca, A.",
-                    "Nanni, R.",
-                    "Prandoni, I.",
-                    "Liuzzo, E.",
-                    "D'Amato, Q.",
-                    "Brusa, M.",
-                    "Calura, F.",
-                    "Caminha, G. B.",
-                    "Chiaberge, M.",
-                    "Comastri, A.",
-                    "Cucciati, O.",
-                    "Cusano, F.",
-                    "Grandi, P.",
-                    "Decarli, R.",
-                    "Lanzuisi, G.",
-                    "Mannucci, F.",
-                    "Pinna, E.",
-                    "Tozzi, P.",
-                    "Vanzella, E.",
-                    "Vignali, C.",
-                    "Vito, F.",
-                    "Balmaverde, B.",
-                    "Citro, A.",
-                    "Cappelluti, N.",
-                    "Zamorani, G.",
-                    "Norman, C."
-                ],
-                "date": "2019-12-01T00:00:00Z",
-                "title": [
-                    "Discovery of a galaxy overdensity around a powerful, heavily obscured FRII radio galaxy at z = 1.7: star formation promoted by large-scale AGN feedback?"
-                ],
-                "citation_count": 39
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -816,38 +835,42 @@
                 "citation_count": 4
             },
             {
-                "bibcode": "2026arXiv260310176M",
+                "bibcode": "2019A&A...632A..26G",
                 "author": [
-                    "Mazzolari, Giovanni",
-                    "Gilli, Roberto",
-                    "Mignoli, Marco",
-                    "Brusa, Marcella",
-                    "Prandoni, Isabella",
-                    "Vito, Fabio",
-                    "Delvecchio, Ivan",
-                    "Lanzuisi, Giorgio",
-                    "Peca, Alessandro",
-                    "Comastri, Andrea",
-                    "Marchesi, Stefano",
-                    "Chiaberge, Marco",
-                    "Brienza, Marisa",
-                    "Vignali, Cristian",
-                    "Signorini, Matilde",
-                    "D'Amato, Quirino",
-                    "Gentile, Fabrizio",
-                    "Iwasawa, Kazushi",
-                    "Norman, Colin",
-                    "Traina, Alberto",
-                    "Loiacono, Federica",
-                    "Baldini, Pietro",
-                    "Annunziatella, Marianna",
-                    "Decarli, Roberto"
+                    "Gilli, R.",
+                    "Mignoli, M.",
+                    "Peca, A.",
+                    "Nanni, R.",
+                    "Prandoni, I.",
+                    "Liuzzo, E.",
+                    "D'Amato, Q.",
+                    "Brusa, M.",
+                    "Calura, F.",
+                    "Caminha, G. B.",
+                    "Chiaberge, M.",
+                    "Comastri, A.",
+                    "Cucciati, O.",
+                    "Cusano, F.",
+                    "Grandi, P.",
+                    "Decarli, R.",
+                    "Lanzuisi, G.",
+                    "Mannucci, F.",
+                    "Pinna, E.",
+                    "Tozzi, P.",
+                    "Vanzella, E.",
+                    "Vignali, C.",
+                    "Vito, F.",
+                    "Balmaverde, B.",
+                    "Citro, A.",
+                    "Cappelluti, N.",
+                    "Zamorani, G.",
+                    "Norman, C."
                 ],
-                "date": "2026-03-01T00:00:00Z",
+                "date": "2019-12-01T00:00:00Z",
                 "title": [
-                    "Radio selection of heavily obscured AGN in the J1030 field: unraveling a missing Compton-thick population"
+                    "Discovery of a galaxy overdensity around a powerful, heavily obscured FRII radio galaxy at z = 1.7: star formation promoted by large-scale AGN feedback?"
                 ],
-                "citation_count": 2
+                "citation_count": 39
             },
             {
                 "bibcode": "2024ApJ...974..235L",
@@ -873,27 +896,31 @@
                 "citation_count": 5
             },
             {
-                "bibcode": "2026ApJ...999L..11D",
+                "bibcode": "2025ApJ...989...88R",
                 "author": [
-                    "Droguett-Callejas, Macarena",
-                    "Treister, Ezequiel",
-                    "Barcos-Mu\u00f1oz, Loreto",
-                    "Johnstone, Makoto",
-                    "Bauer, Franz E.",
-                    "Kawamuro, Taiki",
-                    "Torres-Alb\u00e0, N\u00faria",
+                    "Reiss, Tomer",
+                    "Trakhtenbrot, Benny",
                     "Ricci, Claudio",
-                    "Koss, Michael",
-                    "Song, Yiqing",
+                    "Bauer, Franz E.",
+                    "Koss, Michael J.",
+                    "Ichikawa, Kohei",
+                    "Kakkad, Darshan",
+                    "Mushotzky, Richard",
+                    "Oh, Kyuseok",
                     "Peca, Alessandro",
-                    "Evans, Aaron",
-                    "Gonz\u00e1lez, Jorge"
+                    "B\u00e4r, Rudolf",
+                    "Diaz, Yaherlyn",
+                    "Harrison, Fiona",
+                    "Powell, Meredith C.",
+                    "Sani, Eleonora",
+                    "Stern, Daniel",
+                    "Urry, C. Megan"
                 ],
-                "date": "2026-03-01T00:00:00Z",
+                "date": "2025-08-01T00:00:00Z",
                 "title": [
-                    "Probing Heavily Obscured Active Galactic Nuclei in Major Galaxy Mergers Using the Millimeter\u2500X-Ray Correlation"
+                    "BASS. XLVIII. [Ne V] \u03bb3427 Emission in Powerful Nearby Active Galactic Nuclei"
                 ],
-                "citation_count": 0
+                "citation_count": 3
             },
             {
                 "bibcode": "2024ApJ...974..156P",
@@ -916,6 +943,20 @@
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
                 "citation_count": 13
+            },
+            {
+                "bibcode": "2026ApJ...997..342F",
+                "author": [
+                    "Fukumura, Keigo",
+                    "Peca, Alessandro",
+                    "Serafinelli, Roberto",
+                    "Dadina, Mauro"
+                ],
+                "date": "2026-02-01T00:00:00Z",
+                "title": [
+                    "Implications of Nonequatorial Relativistic Accretion Flows for Ultrafast Inflows in Active Galactic Nuclei"
+                ],
+                "citation_count": 0
             },
             {
                 "bibcode": "2025arXiv250913308S",
@@ -984,47 +1025,6 @@
                 "citation_count": 4
             },
             {
-                "bibcode": "2026ApJ...997..342F",
-                "author": [
-                    "Fukumura, Keigo",
-                    "Peca, Alessandro",
-                    "Serafinelli, Roberto",
-                    "Dadina, Mauro"
-                ],
-                "date": "2026-02-01T00:00:00Z",
-                "title": [
-                    "Implications of Nonequatorial Relativistic Accretion Flows for Ultrafast Inflows in Active Galactic Nuclei"
-                ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2025ApJ...989...88R",
-                "author": [
-                    "Reiss, Tomer",
-                    "Trakhtenbrot, Benny",
-                    "Ricci, Claudio",
-                    "Bauer, Franz E.",
-                    "Koss, Michael J.",
-                    "Ichikawa, Kohei",
-                    "Kakkad, Darshan",
-                    "Mushotzky, Richard",
-                    "Oh, Kyuseok",
-                    "Peca, Alessandro",
-                    "B\u00e4r, Rudolf",
-                    "Diaz, Yaherlyn",
-                    "Harrison, Fiona",
-                    "Powell, Meredith C.",
-                    "Sani, Eleonora",
-                    "Stern, Daniel",
-                    "Urry, C. Megan"
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "BASS. XLVIII. [Ne V] \u03bb3427 Emission in Powerful Nearby Active Galactic Nuclei"
-                ],
-                "citation_count": 3
-            },
-            {
                 "bibcode": "2026ApJ..1000..165L",
                 "author": [
                     "Li, Guodong",
@@ -1074,6 +1074,69 @@
                 "citation_count": 0
             },
             {
+                "bibcode": "2026arXiv260315752K",
+                "author": [
+                    "Kim, Jeein",
+                    "Chung, Aeree",
+                    "Wong, O. Ivy",
+                    "Baek, Junhyun",
+                    "Murugeshan, Chandrashekar",
+                    "Koss, Michael J.",
+                    "Oh, Kyuseok",
+                    "Bauer, Franz Erik",
+                    "Chang, Chin-Shin",
+                    "Diaz, Yaherlyn",
+                    "Ichikawa, Kohei",
+                    "Kakkad, Darshan",
+                    "Kim, Minjin",
+                    "Magno, Macon",
+                    "del Moral-Castro, Ignacio",
+                    "Mushotzky, Richard",
+                    "Peca, Alessandro",
+                    "Ricci, Claudio",
+                    "Signorini, Matilde",
+                    "Parra Tello, Miguel",
+                    "Trakhtenbrot, Benny",
+                    "Woo, Jong-Hak"
+                ],
+                "date": "2026-03-01T00:00:00Z",
+                "title": [
+                    "BASS. LI. Cool gas supply of HI-massive local Seyfert galaxies"
+                ],
+                "citation_count": 0
+            },
+            {
+                "bibcode": "2026arXiv260220315S",
+                "author": [
+                    "Signorini, Matilde",
+                    "Ricci, Federica",
+                    "Tortosa, Alessia",
+                    "Bianchi, Stefano",
+                    "La Franca, Fabio",
+                    "Bauer, Franz E.",
+                    "Harrison, Fiona A.",
+                    "Ichikawa, Kohei",
+                    "Jana, Arghajit",
+                    "Koss, Michael J.",
+                    "Liu, Tingting",
+                    "Oh, Kyuseok",
+                    "Peca, Alessandro",
+                    "Powell, Meredith",
+                    "Ricci, Claudio",
+                    "Sanders, David B.",
+                    "Serafinelli, Roberto",
+                    "Stern, Daniel",
+                    "Trakhtenbrot, Benny",
+                    "Treister, Ezequiel",
+                    "Urry, Megan"
+                ],
+                "date": "2026-02-01T00:00:00Z",
+                "title": [
+                    "BASS LVI. Connecting X-ray variability with AGN physical properties and a new path to Cosmological distances"
+                ],
+                "citation_count": 0
+            },
+            {
                 "bibcode": "2025A&A...701A..45M",
                 "author": [
                     "Mhatre, A.",
@@ -1095,55 +1158,6 @@
                     "Active galactic nuclei with massive black holes have closer galactic neighbors: k-nearest-neighbor statistics of an unbiased sample at z \u223c 0.03"
                 ],
                 "citation_count": 0
-            },
-            {
-                "bibcode": "2025ApJ...982..134T",
-                "author": [
-                    "Tokayer, Yarone M.",
-                    "Koss, Michael J.",
-                    "Urry, C. Megan",
-                    "Natarajan, Priyamvada",
-                    "Mushotzky, Richard",
-                    "Balokovi\u0107, Mislav",
-                    "Bauer, Franz E.",
-                    "Boorman, Peter",
-                    "Peca, Alessandro",
-                    "Ricci, Claudio",
-                    "Ricci, Federica",
-                    "Stern, Daniel",
-                    "Treister, Ezequiel",
-                    "Trakhtenbrot, Benny"
-                ],
-                "date": "2025-04-01T00:00:00Z",
-                "title": [
-                    "BASS. XLV. Quantifying Active Galactic Nuclei Selection Effects in the Chandra COSMOS-legacy Survey with BASS"
-                ],
-                "citation_count": 2
-            },
-            {
-                "bibcode": "2022A&A...668A.133D",
-                "author": [
-                    "D'Amato, Q.",
-                    "Prandoni, I.",
-                    "Gilli, R.",
-                    "Vignali, C.",
-                    "Massardi, M.",
-                    "Liuzzo, E.",
-                    "Jagannathan, P.",
-                    "Brienza, M.",
-                    "Paladino, R.",
-                    "Mignoli, M.",
-                    "Marchesi, S.",
-                    "Peca, A.",
-                    "Chiaberge, M.",
-                    "Mazzolari, G.",
-                    "Norman, C."
-                ],
-                "date": "2022-12-01T00:00:00Z",
-                "title": [
-                    "A deep 1.4 GHz survey of the J1030 equatorial field: A new window on radio source populations across cosmic time"
-                ],
-                "citation_count": 15
             },
             {
                 "bibcode": "2023A&A...672A.179B",
@@ -1178,93 +1192,53 @@
                 "citation_count": 5
             },
             {
-                "bibcode": "2026arXiv260220315S",
+                "bibcode": "2022A&A...668A.133D",
                 "author": [
-                    "Signorini, Matilde",
-                    "Ricci, Federica",
-                    "Tortosa, Alessia",
-                    "Bianchi, Stefano",
-                    "La Franca, Fabio",
-                    "Bauer, Franz E.",
-                    "Harrison, Fiona A.",
-                    "Ichikawa, Kohei",
-                    "Jana, Arghajit",
-                    "Koss, Michael J.",
-                    "Liu, Tingting",
-                    "Oh, Kyuseok",
-                    "Peca, Alessandro",
-                    "Powell, Meredith",
-                    "Ricci, Claudio",
-                    "Sanders, David B.",
-                    "Serafinelli, Roberto",
-                    "Stern, Daniel",
-                    "Trakhtenbrot, Benny",
-                    "Treister, Ezequiel",
-                    "Urry, Megan"
+                    "D'Amato, Q.",
+                    "Prandoni, I.",
+                    "Gilli, R.",
+                    "Vignali, C.",
+                    "Massardi, M.",
+                    "Liuzzo, E.",
+                    "Jagannathan, P.",
+                    "Brienza, M.",
+                    "Paladino, R.",
+                    "Mignoli, M.",
+                    "Marchesi, S.",
+                    "Peca, A.",
+                    "Chiaberge, M.",
+                    "Mazzolari, G.",
+                    "Norman, C."
                 ],
-                "date": "2026-02-01T00:00:00Z",
+                "date": "2022-12-01T00:00:00Z",
                 "title": [
-                    "BASS LVI. Connecting X-ray variability with AGN physical properties and a new path to Cosmological distances"
+                    "A deep 1.4 GHz survey of the J1030 equatorial field: A new window on radio source populations across cosmic time"
                 ],
-                "citation_count": 0
+                "citation_count": 15
             },
             {
-                "bibcode": "2026arXiv260315752K",
+                "bibcode": "2025ApJ...982..134T",
                 "author": [
-                    "Kim, Jeein",
-                    "Chung, Aeree",
-                    "Wong, O. Ivy",
-                    "Baek, Junhyun",
-                    "Murugeshan, Chandrashekar",
+                    "Tokayer, Yarone M.",
                     "Koss, Michael J.",
-                    "Oh, Kyuseok",
-                    "Bauer, Franz Erik",
-                    "Chang, Chin-Shin",
-                    "Diaz, Yaherlyn",
-                    "Ichikawa, Kohei",
-                    "Kakkad, Darshan",
-                    "Kim, Minjin",
-                    "Magno, Macon",
-                    "del Moral-Castro, Ignacio",
+                    "Urry, C. Megan",
+                    "Natarajan, Priyamvada",
                     "Mushotzky, Richard",
+                    "Balokovi\u0107, Mislav",
+                    "Bauer, Franz E.",
+                    "Boorman, Peter",
                     "Peca, Alessandro",
                     "Ricci, Claudio",
-                    "Signorini, Matilde",
-                    "Parra Tello, Miguel",
-                    "Trakhtenbrot, Benny",
-                    "Woo, Jong-Hak"
+                    "Ricci, Federica",
+                    "Stern, Daniel",
+                    "Treister, Ezequiel",
+                    "Trakhtenbrot, Benny"
                 ],
-                "date": "2026-03-01T00:00:00Z",
+                "date": "2025-04-01T00:00:00Z",
                 "title": [
-                    "BASS. LI. Cool gas supply of HI-massive local Seyfert galaxies"
+                    "BASS. XLV. Quantifying Active Galactic Nuclei Selection Effects in the Chandra COSMOS-legacy Survey with BASS"
                 ],
-                "citation_count": 0
-            },
-            {
-                "bibcode": "2023A&A...676A..49S",
-                "author": [
-                    "Signorini, Matilde",
-                    "Marchesi, Stefano",
-                    "Gilli, Roberto",
-                    "Brusa, Marcella",
-                    "Comastri, Andrea",
-                    "D'Amato, Quirino",
-                    "Iwasawa, Kazushi",
-                    "Lanzuisi, Giorgio",
-                    "Mazzolari, Giovanni",
-                    "Mignoli, Marco",
-                    "Peca, Alessandro",
-                    "Prandoni, Isabella",
-                    "Tozzi, Paolo",
-                    "Vignali, Cristian",
-                    "Vito, Fabio",
-                    "Norman, Colin"
-                ],
-                "date": "2023-08-01T00:00:00Z",
-                "title": [
-                    "X-ray properties and obscured fraction of AGN in the J1030 Chandra field"
-                ],
-                "citation_count": 18
+                "citation_count": 2
             },
             {
                 "bibcode": "2026ApJ...997..366K",
@@ -1298,6 +1272,54 @@
                 "citation_count": 0
             },
             {
+                "bibcode": "2023A&A...676A..49S",
+                "author": [
+                    "Signorini, Matilde",
+                    "Marchesi, Stefano",
+                    "Gilli, Roberto",
+                    "Brusa, Marcella",
+                    "Comastri, Andrea",
+                    "D'Amato, Quirino",
+                    "Iwasawa, Kazushi",
+                    "Lanzuisi, Giorgio",
+                    "Mazzolari, Giovanni",
+                    "Mignoli, Marco",
+                    "Peca, Alessandro",
+                    "Prandoni, Isabella",
+                    "Tozzi, Paolo",
+                    "Vignali, Cristian",
+                    "Vito, Fabio",
+                    "Norman, Colin"
+                ],
+                "date": "2023-08-01T00:00:00Z",
+                "title": [
+                    "X-ray properties and obscured fraction of AGN in the J1030 Chandra field"
+                ],
+                "citation_count": 18
+            },
+            {
+                "bibcode": "2026arXiv260122227J",
+                "author": [
+                    "Jarvis, William W. H.",
+                    "Auge, Connor",
+                    "Sanders, David",
+                    "Ding, Xuheng",
+                    "Kim-Bolt, Jeana",
+                    "Urry, C. Megan",
+                    "Hooper, Eric",
+                    "Peca, Alessandro",
+                    "Ghosh, Aritra",
+                    "Tian, Chuan",
+                    "Ananna, Tonima T.",
+                    "Mahmudunnobe, Md"
+                ],
+                "date": "2026-01-01T00:00:00Z",
+                "title": [
+                    "Obscured AGN at z &lt; 1.5: X-ray to Far-Infrared SEDs and Host Galaxy Morphologies in the GOODS Fields"
+                ],
+                "citation_count": 0
+            },
+            {
                 "bibcode": "2023A&A...673A..97M",
                 "author": [
                     "Marchesi, Stefano",
@@ -1322,6 +1344,21 @@
                     "LBT-MODS spectroscopy of high-redshift candidates in the Chandra J1030 field. A newly discovered z \u223c 2.8 large-scale structure"
                 ],
                 "citation_count": 5
+            },
+            {
+                "bibcode": "2024Univ...10..245P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2024-06-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 4
             },
             {
                 "bibcode": "2020A&A...637A..52N",
@@ -1355,28 +1392,6 @@
                 "citation_count": 17
             },
             {
-                "bibcode": "2026arXiv260122227J",
-                "author": [
-                    "Jarvis, William W. H.",
-                    "Auge, Connor",
-                    "Sanders, David",
-                    "Ding, Xuheng",
-                    "Kim-Bolt, Jeana",
-                    "Urry, C. Megan",
-                    "Hooper, Eric",
-                    "Peca, Alessandro",
-                    "Ghosh, Aritra",
-                    "Tian, Chuan",
-                    "Ananna, Tonima T.",
-                    "Mahmudunnobe, Md"
-                ],
-                "date": "2026-01-01T00:00:00Z",
-                "title": [
-                    "Obscured AGN at z &lt; 1.5: X-ray to Far-Infrared SEDs and Host Galaxy Morphologies in the GOODS Fields"
-                ],
-                "citation_count": 0
-            },
-            {
                 "bibcode": "2021ApJ...906...90P",
                 "author": [
                     "Peca, Alessandro",
@@ -1397,21 +1412,6 @@
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
                 "citation_count": 24
-            },
-            {
-                "bibcode": "2024Univ...10..245P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Marchesi, Stefano",
-                    "Hodges-Kluck, Edmund",
-                    "Foord, Adi"
-                ],
-                "date": "2024-06-01T00:00:00Z",
-                "title": [
-                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ],
-                "citation_count": 4
             },
             {
                 "bibcode": "2020A&A...641L...6D",
@@ -1523,21 +1523,6 @@
                 "citation_count": 6
             },
             {
-                "bibcode": "2022ApJ...936...39S",
-                "author": [
-                    "Sicilian, Dominic",
-                    "Civano, Francesca",
-                    "Cappelluti, Nico",
-                    "Buchner, Johannes",
-                    "Peca, Alessandro"
-                ],
-                "date": "2022-09-01T00:00:00Z",
-                "title": [
-                    "X-Ray Redshifts of Obscured Chandra Source Catalog Active Galactic Nuclei"
-                ],
-                "citation_count": 4
-            },
-            {
                 "bibcode": "2020ApJ...903..106C",
                 "author": [
                     "Cooke, Kevin C.",
@@ -1560,6 +1545,21 @@
                     "Dying of the Light: An X-Ray Fading Cold Quasar at z \u223c 0.405"
                 ],
                 "citation_count": 8
+            },
+            {
+                "bibcode": "2022ApJ...936...39S",
+                "author": [
+                    "Sicilian, Dominic",
+                    "Civano, Francesca",
+                    "Cappelluti, Nico",
+                    "Buchner, Johannes",
+                    "Peca, Alessandro"
+                ],
+                "date": "2022-09-01T00:00:00Z",
+                "title": [
+                    "X-Ray Redshifts of Obscured Chandra Source Catalog Active Galactic Nuclei"
+                ],
+                "citation_count": 4
             },
             {
                 "bibcode": "2021arXiv211214401C",
