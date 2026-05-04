@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 340,
+        "QTime": 505,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69ef43d9-1a6f62592fec19f21c311c9f",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69f87e55-5fd74e2840a1410a308aef13",
             "rows": "200",
             "wt": "json"
         }
@@ -48,7 +48,7 @@
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
                 ],
-                "citation_count": 7
+                "citation_count": 8
             },
             {
                 "bibcode": "2023ApJ...943..162P",
@@ -72,7 +72,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 59
+                "citation_count": 60
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -133,7 +133,7 @@
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
-                "citation_count": 24
+                "citation_count": 26
             },
             {
                 "bibcode": "2024Univ...10..245P",
