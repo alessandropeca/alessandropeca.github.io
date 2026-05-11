@@ -1,12 +1,14 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 505,
+        "QTime": 1031,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
+            "cpuAllowed": "5000",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-69f87e55-5fd74e2840a1410a308aef13",
+            "memAllowed": "1",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a01c89d-5eb271f316a6c65a6ef17050",
             "rows": "200",
             "wt": "json"
         }
@@ -89,7 +91,7 @@
                 "title": [
                     "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
                 ],
-                "citation_count": 3
+                "citation_count": 4
             },
             {
                 "bibcode": "2024ApJ...974..156P",
@@ -137,6 +139,7 @@
             },
             {
                 "bibcode": "2024Univ...10..245P",
+                "citation_count": 4,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -147,8 +150,7 @@
                 "date": "2024-06-01T00:00:00Z",
                 "title": [
                     "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ],
-                "citation_count": 4
+                ]
             }
         ]
     }
