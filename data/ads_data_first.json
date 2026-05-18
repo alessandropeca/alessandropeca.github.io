@@ -1,14 +1,14 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 1031,
+        "QTime": 509,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "cpuAllowed": "5000",
             "start": "0",
             "memAllowed": "1",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a01c89d-5eb271f316a6c65a6ef17050",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a0b085d-56903d007e7f2d5063a23340",
             "rows": "200",
             "wt": "json"
         }
@@ -116,6 +116,21 @@
                 "citation_count": 13
             },
             {
+                "bibcode": "2024Univ...10..245P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Marchesi, Stefano",
+                    "Hodges-Kluck, Edmund",
+                    "Foord, Adi"
+                ],
+                "date": "2024-06-01T00:00:00Z",
+                "title": [
+                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 4
+            },
+            {
                 "bibcode": "2021ApJ...906...90P",
                 "author": [
                     "Peca, Alessandro",
@@ -136,21 +151,6 @@
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
                 "citation_count": 26
-            },
-            {
-                "bibcode": "2024Univ...10..245P",
-                "citation_count": 4,
-                "author": [
-                    "Peca, Alessandro",
-                    "Cappelluti, Nico",
-                    "Marchesi, Stefano",
-                    "Hodges-Kluck, Edmund",
-                    "Foord, Adi"
-                ],
-                "date": "2024-06-01T00:00:00Z",
-                "title": [
-                    "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
-                ]
             }
         ]
     }
