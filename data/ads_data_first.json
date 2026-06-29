@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 88,
+        "QTime": 300,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a30184c-424cdd865925e3055e43b506",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a426f00-7874d50e12e943777711946a",
             "rows": "200",
             "wt": "json"
         }
@@ -72,7 +72,7 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "citation_count": 60
+                "citation_count": 62
             },
             {
                 "bibcode": "2025ApJ...989...84P",
@@ -152,6 +152,6 @@
             }
         ]
     },
-    "allocatedBytes": 40863576,
+    "allocatedBytes": 37963176,
     "filtered": "true"
 }
