@@ -23,7 +23,7 @@ jobs:
         
     - name: Install dependencies
       run: |
-        pip install requests matplotlib numpy
+        pip install requests numpy
         
     - name: Update bibliography
       env:
@@ -35,6 +35,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/ads_data_first.json data/ads_data_all.json
+        git add data/ads_data_first.json data/ads_data_all.json index.html
         git diff --staged --quiet || git commit -m "Update bibliography data - $(date '+%Y-%m-%d')"
         git push
