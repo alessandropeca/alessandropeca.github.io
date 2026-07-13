@@ -1,13 +1,13 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 523,
+        "QTime": 357,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
             "memAllowed": "800",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a4ba54f-0a35e8d0363e54e664782c69",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a54d5f0-66d09ecd436591187238b9c2",
             "timeAllowed": "20000",
             "rows": "200",
             "wt": "json"
@@ -135,7 +135,7 @@
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
-                "citation_count": 27
+                "citation_count": 26
             },
             {
                 "bibcode": "2024Univ...10..245P",
@@ -154,6 +154,6 @@
             }
         ]
     },
-    "allocatedBytes": 43821456,
+    "allocatedBytes": 39262272,
     "filtered": "true"
 }
