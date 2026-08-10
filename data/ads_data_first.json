@@ -1,13 +1,13 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 373,
+        "QTime": 3697,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
             "memAllowed": "800",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a709853-4f840aa266fceee83ef0b2d4",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a79a64f-0fcd33a845193b7f1e3b7d75",
             "timeAllowed": "20000",
             "rows": "200",
             "wt": "json"
@@ -154,6 +154,6 @@
             }
         ]
     },
-    "allocatedBytes": 45690104,
+    "allocatedBytes": 46292720,
     "filtered": "true"
 }
