@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Paper Preview | Alessandro Peca</title>
+        <link rel="icon" href="imgs/black_hole_icon.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .gate-wrap {
+                max-width: 420px;
+                margin: 4rem auto;
+                text-align: center;
+            }
+            .gate-wrap input[type="password"] {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 0.7rem 1rem;
+                font-size: 1rem;
+                border: 1px solid #d1d5db;
+                border-radius: 8px;
+                margin-bottom: 1rem;
+            }
+            .gate-error {
+                color: #b91c1c;
+                min-height: 1.4em;
+                margin-bottom: 1rem;
+            }
+            #preview-content {
+                display: none;
+            }
+            .embed-block {
+                margin: 2.5rem auto;
+                max-width: 1100px;
+            }
+            .embed-block h2 {
+                text-align: left;
+            }
+            .embed-block iframe {
+                width: 100%;
+                border: 1px solid #e5e7eb;
+                border-radius: 8px;
+                display: block;
+            }
+            .preview-nav {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.75rem;
+                justify-content: center;
+                margin: 1.5rem 0 2.5rem;
+            }
+            .preview-nav a {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.6rem 1.2rem;
+                background: #f1f5f9;
+                color: #374151;
+                text-decoration: none;
+                border-radius: 8px;
+                font-size: 0.95em;
+                font-weight: 500;
+                border: 1px solid #e2e8f0;
+                transition: all 0.2s ease;
+            }
+            .preview-nav a:hover {
+                background: #e2e8f0;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Preview: Upcoming Submission</h1>
+        </div>
+    </header>
+    <main>
+        <section id="gate">
+            <div class="gate-wrap">
+                <p>This page contains preliminary material for a paper currently in preparation. Access is limited to collaborators and referees.</p>
+                <input type="password" id="password-input" placeholder="Enter password" autocomplete="off">
+                <div class="gate-error" id="gate-error"></div>
+                <button class="btn" id="unlock-btn" type="button">Unlock</button>
+            </div>
+        </section>
+
+        <section id="preview-content">
+            <p>Reference material for the AGN-DB catalog, as used in the upcoming submission.</p>
+
+            <nav class="preview-nav">
+                <a href="#source-table-ref">Source Catalog Table References</a>
+                <a href="#col-description">Column Description</a>
+                <a href="https://mega.nz/file/hwtEhQDR" target="_blank" rel="noopener">Download Catalog</a>
+            </nav>
+            <p class="preview-note" style="text-align: center;">A decryption key is required to access the catalog file &mdash; contact Alessandro Peca directly to obtain it.</p>
+
+            <div class="embed-block" id="source-table-ref">
+                <h2>Source Catalog Table References</h2>
+                <iframe data-src="agndb_pages/source_table_ref.html" title="Source Catalog Table References" loading="lazy"></iframe>
+            </div>
+
+            <div class="embed-block" id="col-description">
+                <h2>Column Description</h2>
+                <iframe data-src="agndb_pages/col_description.html" title="Column Description" loading="lazy"></iframe>
+            </div>
+
+            <h2>Contact</h2>
+            <p>Questions or comments? <a href="mailto:peca.alessandro@gmail.com">Email Alessandro Peca</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Alessandro Peca's Webpage. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Client-side gate only: deters casual visitors and search engines,
+        // not a substitute for real access control. Don't put highly sensitive
+        // material here.
+        // To change the password: compute the SHA-256 hex digest of the new
+        // password (e.g. `echo -n "your-new-password" | shasum -a 256`) and
+        // replace CORRECT_HASH below.
+        const CORRECT_HASH = "5f564989ca1fa9bc07b9a94a29236749071eae07b95646a080927057416580dc";
+        const SESSION_KEY = "paper-preview-unlocked";
+
+        async function sha256Hex(text) {
+            const data = new TextEncoder().encode(text);
+            const digest = await crypto.subtle.digest("SHA-256", data);
+            return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
+        }
+
+        function autoResizeIframe(iframe) {
+            const resize = () => {
+                try {
+                    iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + "px";
+                } catch (e) {
+                    iframe.style.height = "800px";
+                }
+            };
+            iframe.addEventListener("load", resize);
+        }
+
+        function unlock() {
+            document.getElementById("gate").style.display = "none";
+            document.getElementById("preview-content").style.display = "block";
+            document.querySelectorAll("#preview-content iframe[data-src]").forEach((iframe) => {
+                autoResizeIframe(iframe);
+                iframe.src = iframe.dataset.src;
+                iframe.removeAttribute("data-src");
+            });
+        }
+
+        async function tryUnlock() {
+            const input = document.getElementById("password-input");
+            const errorEl = document.getElementById("gate-error");
+            const hash = await sha256Hex(input.value);
+            if (hash === CORRECT_HASH) {
+                sessionStorage.setItem(SESSION_KEY, "1");
+                unlock();
+            } else {
+                errorEl.textContent = "Incorrect password.";
+            }
+        }
+
+        document.getElementById("unlock-btn").addEventListener("click", tryUnlock);
+        document.getElementById("password-input").addEventListener("keydown", (e) => {
+            if (e.key === "Enter") tryUnlock();
+        });
+
+        if (sessionStorage.getItem(SESSION_KEY) === "1") {
+            unlock();
+        }
+    </script>
+</body>
+</html>
