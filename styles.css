@@ -545,6 +545,23 @@ html {
     line-height: 1.8;
 }
 
+.about-divider {
+    max-width: 800px;
+    margin: 2rem auto;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+}
+
+.preview-note {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+.preview-note a {
+    color: #4f46e5;
+    text-decoration: underline;
+}
+
 /* Publications Section */
 .publications-header {
     display: flex;
