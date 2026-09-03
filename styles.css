@@ -552,6 +552,25 @@ html {
     border-top: 1px solid #e5e7eb;
 }
 
+.agndb-callout {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    padding: 1.1rem 1.4rem;
+    margin: 1.5rem 0;
+    color: #1e3a5f;
+}
+
+.agndb-callout p {
+    margin-top: 0;
+}
+
+.agndb-callout a {
+    color: #00509e;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 .preview-note {
     font-size: 0.95rem;
     color: #6b7280;
