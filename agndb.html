@@ -70,7 +70,7 @@
                 background-color: #04060f;
                 background-image: linear-gradient(rgba(4, 6, 15, 0.35), rgba(4, 6, 15, 0.35)),
                                   url('agndb_pages/sky_density_no_count_transparent_whitetext.png');
-                background-size: cover;
+                background-size: 100% 100%, 70% auto;
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 340px;
@@ -81,21 +81,16 @@
             .agndb-header .header-content {
                 width: 100%;
                 padding: 0 1.5rem;
-            }
-            .agndb-header h1 {
-                margin: 0 auto;
-                text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
-            }
-            .sky-map {
-                margin: 2rem auto;
-                max-width: 1100px;
                 text-align: center;
             }
-            .sky-map img {
-                width: 100%;
-                height: auto;
-                display: block;
+            .agndb-header h1 {
+                display: inline-block;
                 margin: 0 auto;
+                padding: 0.5rem 1.5rem;
+                background: rgba(4, 6, 15, 0.45);
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                border-radius: 10px;
+                text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
             }
             .preview-nav a.download-link {
                 background: #dbeafe;
@@ -137,10 +132,6 @@
                 <a class="download-link" href="https://mega.nz/file/s4c21ZZL" target="_blank" rel="noopener">Download Catalog</a>
             </nav>
             <p class="preview-note" style="text-align: center;">A decryption key is required to access the catalog file &mdash; contact Alessandro Peca directly to obtain it.</p>
-
-            <figure class="sky-map">
-                <img src="agndb_pages/sky_density_no_count_transparent.png" alt="All-sky map of the AGN-DB source density in Galactic coordinates, with major survey fields labelled">
-            </figure>
 
             <div class="embed-block" id="source-table-ref">
                 <h2>Source Catalogs</h2>
