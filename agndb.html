@@ -66,6 +66,26 @@
             .preview-nav a:hover {
                 background: #e2e8f0;
             }
+            .agndb-header {
+                background-color: #04060f;
+                background-image: linear-gradient(rgba(4, 6, 15, 0.35), rgba(4, 6, 15, 0.35)),
+                                  url('agndb_pages/sky_density_no_count_transparent_whitetext.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 340px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .agndb-header .header-content {
+                width: 100%;
+                padding: 0 1.5rem;
+            }
+            .agndb-header h1 {
+                margin: 0 auto;
+                text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
+            }
             .sky-map {
                 margin: 2rem auto;
                 max-width: 1100px;
@@ -88,7 +108,7 @@
         </style>
     </head>
 <body>
-    <header>
+    <header class="agndb-header">
         <div class="header-content">
             <h1>The AGN Database (AGN-DB) v1.0</h1>
         </div>
@@ -119,7 +139,7 @@
             <p class="preview-note" style="text-align: center;">A decryption key is required to access the catalog file &mdash; contact Alessandro Peca directly to obtain it.</p>
 
             <figure class="sky-map">
-                <img src="agndb_pages/sky_density_no_count.png" alt="All-sky map of the AGN-DB source density in Galactic coordinates, with major survey fields labelled">
+                <img src="agndb_pages/sky_density_no_count_transparent.png" alt="All-sky map of the AGN-DB source density in Galactic coordinates, with major survey fields labelled">
             </figure>
 
             <div class="embed-block" id="source-table-ref">
