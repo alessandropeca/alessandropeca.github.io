@@ -1,4 +1,5 @@
 {
-  "_comment": "Points the viewer at its catalog. Edit 'url' to swap catalogs - no rebuild needed. Must be a parquet on a host supporting HTTP range requests + CORS.",
-  "url": "https://huggingface.co/datasets/xPecax/agndb1p0_sept26/resolve/main/catalog_public_v1.parquet"
+  "_comment": "Viewer data sources. 'pointsUrl' is a small precomputed file for the 3D point cloud (fast startup); 'url' is the full catalog, read for click-to-inspect, SED building and band overlays. Edit these to swap catalogs - no rebuild needed. Both must support HTTP range requests + CORS.",
+  "url": "https://huggingface.co/datasets/xPecax/agndb1p0_sept26/resolve/main/catalog_public_v3.parquet",
+  "pointsUrl": "https://huggingface.co/datasets/xPecax/agndb1p0_sept26/resolve/main/points_v3.parquet"
 }
