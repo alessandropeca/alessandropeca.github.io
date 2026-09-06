@@ -351,7 +351,7 @@ html {
 .status-badge.accepted {
     background: rgba(255, 255, 255, 0.9);
     color: #374151;
-    border: 2px solid #22c55e;
+    border: 3px solid #22c55e;
 }
 
 .card-content {
