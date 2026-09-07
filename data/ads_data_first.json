@@ -1,24 +1,23 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 455,
+        "QTime": 405,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a95b298-6188307f30fbfbc36045e681",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6a9ed0d4-0d17523b0fae7dea45bfe5f0",
             "rows": "200",
             "wt": "json"
         }
     },
     "response": {
-        "numFound": 18,
+        "numFound": 20,
         "start": 0,
         "numFoundExact": true,
         "docs": [
             {
                 "bibcode": "2025ApJ...990....3P",
-                "citation_count": 8,
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -48,11 +47,11 @@
                 "date": "2025-09-01T00:00:00Z",
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
-                ]
+                ],
+                "citation_count": 8
             },
             {
                 "bibcode": "2023ApJ...943..162P",
-                "citation_count": 66,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -72,11 +71,28 @@
                 "date": "2023-02-01T00:00:00Z",
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
-                ]
+                ],
+                "citation_count": 66
+            },
+            {
+                "bibcode": "2025ApJ...989...84P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Ricci, Claudio",
+                    "Urry, C. Megan",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G."
+                ],
+                "date": "2025-08-01T00:00:00Z",
+                "title": [
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
+                ],
+                "citation_count": 6
             },
             {
                 "bibcode": "2024ApJ...974..156P",
-                "citation_count": 13,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -94,24 +110,8 @@
                 "date": "2024-10-01T00:00:00Z",
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
-                ]
-            },
-            {
-                "bibcode": "2025ApJ...989...84P",
-                "citation_count": 6,
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
                 ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
-                ]
+                "citation_count": 13
             },
             {
                 "bibcode": "2021ApJ...906...90P",
@@ -137,7 +137,6 @@
             },
             {
                 "bibcode": "2024Univ...10..245P",
-                "citation_count": 4,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -148,10 +147,75 @@
                 "date": "2024-06-01T00:00:00Z",
                 "title": [
                     "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
+                ],
+                "citation_count": 4
+            },
+            {
+                "bibcode": "2026arXiv260904322P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Cappelluti, Nico",
+                    "Urry, C. Megan",
+                    "Hu, Zhongtian",
+                    "Bonnell, Jerry R.",
+                    "McKeown, Jack",
+                    "Cerini, Giulia",
+                    "Sun, Xulei",
+                    "Pacucci, Fabio",
+                    "Turner, Tracey Jane",
+                    "Boorman, Peter G.",
+                    "Ghosh, Aritra",
+                    "Auge, Connor",
+                    "B\u00f6ttger, Rebeka L.",
+                    "Foord, Adi",
+                    "Galeazzi, Massimiliano",
+                    "Kartaltepe, Jeyhan S.",
+                    "Warburton Kilmarrin, Iver",
+                    "Kirkpatrick, Allison",
+                    "Koss, Michael J.",
+                    "LaMassa, Stephanie",
+                    "Mahmudunnobe, Md",
+                    "Marchesi, Stefano",
+                    "Marcotulli, Lea",
+                    "Moskowitz, Isaac",
+                    "Natarajan, Priyamvada",
+                    "Ogihara, Mitsunori",
+                    "Powell, Meredith",
+                    "Sanders, David",
+                    "Sicilian, Dominic",
+                    "Tian, Chuan",
+                    "Treister, Ezequiel"
+                ],
+                "date": "2026-09-01T00:00:00Z",
+                "title": [
+                    "AGN-DB: A Unified Multi-Wavelength Database of Active Galactic Nuclei"
                 ]
+            },
+            {
+                "bibcode": "2026arXiv260903019P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Urry, C. Megan",
+                    "Ricci, Claudio",
+                    "Fukumura, Keigo",
+                    "Gaspari, Massimo",
+                    "Kammoun, Elias",
+                    "Tortosa, Alessia",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G.",
+                    "Mushotzky, Richard",
+                    "D'Amato, Quirino"
+                ],
+                "date": "2026-09-01T00:00:00Z",
+                "title": [
+                    "Multi-epoch Detection of an Ultra-fast Inflow in ESP 39607: Evidence for an Accretion Cascade"
+                ],
+                "citation_count": 0
             }
         ]
     },
-    "allocatedBytes": 45883344,
+    "allocatedBytes": 43708096,
     "filtered": "true"
 }
