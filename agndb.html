@@ -8,28 +8,6 @@
         <link rel="icon" href="imgs/black_hole_icon.png" type="image/png">
         <link rel="stylesheet" href="styles.css">
         <style>
-            .gate-wrap {
-                max-width: 420px;
-                margin: 4rem auto;
-                text-align: center;
-            }
-            .gate-wrap input[type="password"] {
-                width: 100%;
-                box-sizing: border-box;
-                padding: 0.7rem 1rem;
-                font-size: 1rem;
-                border: 1px solid #d1d5db;
-                border-radius: 8px;
-                margin-bottom: 1rem;
-            }
-            .gate-error {
-                color: #b91c1c;
-                min-height: 1.4em;
-                margin-bottom: 1rem;
-            }
-            #preview-content {
-                display: none;
-            }
             .embed-block {
                 margin: 2.5rem auto;
                 max-width: 1100px;
@@ -109,15 +87,6 @@
         </div>
     </header>
     <main>
-        <section id="gate">
-            <div class="gate-wrap">
-                <p>This page contains preliminary material. Access is limited to collaborators only.</p>
-                <input type="password" id="password-input" placeholder="Enter password" autocomplete="off">
-                <div class="gate-error" id="gate-error"></div>
-                <button class="btn" id="unlock-btn" type="button">Unlock</button>
-            </div>
-        </section>
-
         <section id="preview-content">
             <p style="text-align: center;">Reference material for the AGN-DB catalog.</p>
             <p style="text-align: center;">The central AGN-DB website is hosted at
@@ -136,17 +105,17 @@
 
             <div class="embed-block" id="source-table-ref">
                 <h2>Source Catalogs</h2>
-                <iframe data-src="agndb_pages/source_table_ref.html" title="Source Catalogs" loading="lazy"></iframe>
+                <iframe src="agndb_pages/source_table_ref.html" title="Source Catalogs" loading="lazy"></iframe>
             </div>
 
             <div class="embed-block" id="col-description">
                 <h2>Column Description</h2>
-                <iframe data-src="agndb_pages/col_description.html" title="Column Description" loading="lazy"></iframe>
+                <iframe src="agndb_pages/col_description.html" title="Column Description" loading="lazy"></iframe>
             </div>
 
             <div class="embed-block" id="classification-scheme">
                 <h2>Classification Scheme</h2>
-                <iframe data-src="agndb_pages/classification_scheme.html" title="Classification Scheme" loading="lazy"></iframe>
+                <iframe src="agndb_pages/classification_scheme.html" title="Classification Scheme" loading="lazy"></iframe>
             </div>
 
 
@@ -158,21 +127,6 @@
     </footer>
 
     <script>
-        // Client-side gate only: deters casual visitors and search engines,
-        // not a substitute for real access control. Don't put highly sensitive
-        // material here.
-        // To change the password: compute the SHA-256 hex digest of the new
-        // password (e.g. `echo -n "your-new-password" | shasum -a 256`) and
-        // replace CORRECT_HASH below.
-        const CORRECT_HASH = "5f564989ca1fa9bc07b9a94a29236749071eae07b95646a080927057416580dc";
-        const SESSION_KEY = "agndb-preview-unlocked";
-
-        async function sha256Hex(text) {
-            const data = new TextEncoder().encode(text);
-            const digest = await crypto.subtle.digest("SHA-256", data);
-            return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, "0")).join("");
-        }
-
         function autoResizeIframe(iframe) {
             const resize = () => {
                 try {
@@ -184,36 +138,7 @@
             iframe.addEventListener("load", resize);
         }
 
-        function unlock() {
-            document.getElementById("gate").style.display = "none";
-            document.getElementById("preview-content").style.display = "block";
-            document.querySelectorAll("#preview-content iframe[data-src]").forEach((iframe) => {
-                autoResizeIframe(iframe);
-                iframe.src = iframe.dataset.src;
-                iframe.removeAttribute("data-src");
-            });
-        }
-
-        async function tryUnlock() {
-            const input = document.getElementById("password-input");
-            const errorEl = document.getElementById("gate-error");
-            const hash = await sha256Hex(input.value);
-            if (hash === CORRECT_HASH) {
-                sessionStorage.setItem(SESSION_KEY, "1");
-                unlock();
-            } else {
-                errorEl.textContent = "Incorrect password.";
-            }
-        }
-
-        document.getElementById("unlock-btn").addEventListener("click", tryUnlock);
-        document.getElementById("password-input").addEventListener("keydown", (e) => {
-            if (e.key === "Enter") tryUnlock();
-        });
-
-        if (sessionStorage.getItem(SESSION_KEY) === "1") {
-            unlock();
-        }
+        document.querySelectorAll("#preview-content iframe").forEach(autoResizeIframe);
     </script>
 </body>
 </html>
