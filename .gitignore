@@ -1,0 +1,5 @@
+# Large data files — GitHub rejects anything over 100 MB
+*.parquet
+
+# macOS
+.DS_Store
