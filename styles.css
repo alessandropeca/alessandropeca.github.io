@@ -354,6 +354,12 @@ html {
     border: 3px solid #22c55e;
 }
 
+.status-badge.submitted {
+    background: rgba(255, 255, 255, 0.9);
+    color: #374151;
+    border: 3px solid #3b82f6;
+}
+
 .card-content {
     padding: 1.5rem;
 }
@@ -370,6 +376,10 @@ html {
     border-radius: 8px;
     overflow: hidden;
     background: #f8fafc;
+}
+
+.card-image.dark {
+    background: #04060f;
 }
 
 .card-image img {
