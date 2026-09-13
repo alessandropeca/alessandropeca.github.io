@@ -22,6 +22,9 @@
                 display: block;
             }
             .preview-nav {
+                /* styles.css makes every <nav> sticky on phones (for the home
+                   page menu); this row of anchors should scroll with the page. */
+                position: static;
                 display: flex;
                 flex-wrap: wrap;
                 gap: 0.75rem;
@@ -78,6 +81,57 @@
             .preview-nav a.download-link:hover {
                 background: #bfdbfe;
             }
+            .preview-nav a.home-link {
+                background: #1f2937;
+                border-color: #1f2937;
+                color: #fff;
+            }
+            .preview-nav a.home-link:hover {
+                background: #374151;
+            }
+            /* Floating shortcuts that stay put while scrolling. */
+            .float-nav {
+                position: fixed;
+                right: 16px;
+                bottom: 16px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                z-index: 200;
+            }
+            .float-nav a,
+            .float-nav button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
+                padding: 0.6rem 1rem;
+                background: rgba(31, 41, 55, 0.92);
+                color: #fff;
+                text-decoration: none;
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                border-radius: 999px;
+                font: inherit;
+                font-size: 0.9em;
+                font-weight: 500;
+                box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+                cursor: pointer;
+                transition: background 0.2s ease, opacity 0.25s ease, transform 0.25s ease;
+            }
+            .float-nav a:hover,
+            .float-nav button:hover {
+                background: rgba(55, 65, 81, 0.95);
+            }
+            .float-nav .to-top {
+                opacity: 0;
+                transform: translateY(8px);
+                pointer-events: none;
+            }
+            .float-nav .to-top.visible {
+                opacity: 1;
+                transform: none;
+                pointer-events: auto;
+            }
         </style>
     </head>
 <body>
@@ -95,6 +149,7 @@
             <p class="preview-note" style="text-align: center;">If you have any comments, you're more than welcome to reach out &mdash; <a href="mailto:peca.alessandro@gmail.com">get in touch</a>!</p>
             
             <nav class="preview-nav">
+                <a class="home-link" href="index.html">&larr; Home</a>
                 <a href="#source-table-ref">Source Catalogs</a>
                 <a href="#col-description">Column Description</a>
                 <a href="#classification-scheme">Classification Scheme</a>
@@ -137,6 +192,11 @@
         <p>&copy; 2026 Alessandro Peca's Webpage. All rights reserved.</p>
     </footer>
 
+    <div class="float-nav">
+        <button class="to-top" type="button" aria-label="Back to top">&uarr; Top</button>
+        <a href="index.html">&#8962; Home</a>
+    </div>
+
     <script>
         function autoResizeIframe(iframe) {
             const resize = () => {
@@ -150,6 +210,12 @@
         }
 
         document.querySelectorAll("#preview-content iframe").forEach(autoResizeIframe);
+
+        const toTop = document.querySelector(".float-nav .to-top");
+        toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+        const updateToTop = () => toTop.classList.toggle("visible", window.scrollY > 300);
+        window.addEventListener("scroll", updateToTop, { passive: true });
+        updateToTop();
     </script>
 </body>
 </html>
