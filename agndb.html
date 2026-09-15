@@ -73,12 +73,34 @@
                 border-radius: 10px;
                 text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
             }
-            .preview-nav a.download-link {
+            /* One download action, two mirrors: a label plus Link 1 | Link 2. */
+            .download-group {
+                display: inline-flex;
+                align-items: stretch;
+                border: 1px solid #93c5fd;
+                border-radius: 8px;
+                overflow: hidden;
+                font-size: 0.95em;
+                font-weight: 500;
+            }
+            .download-group .download-label {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.6rem 0.9rem;
                 background: #dbeafe;
-                border-color: #93c5fd;
                 color: #1e40af;
             }
-            .preview-nav a.download-link:hover {
+            .download-group a {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.6rem 0.9rem;
+                background: #eff6ff;
+                color: #1e40af;
+                text-decoration: none;
+                border-left: 1px solid #93c5fd;
+                transition: background 0.2s ease;
+            }
+            .download-group a:hover {
                 background: #bfdbfe;
             }
             .preview-nav a.home-link {
@@ -151,9 +173,13 @@
                 <a href="#col-description">Column Description</a>
                 <a href="#classification-scheme">Classification Scheme</a>
                 <a href="agndb_pages/universe/index.html" target="_blank" rel="noopener">Catalog Visualizer App</a>
-                <a class="download-link" href="https://mega.nz/file/s4c21ZZL" target="_blank" rel="noopener">Download Catalog</a>
+                <span class="download-group">
+                    <span class="download-label">Download Catalog</span>
+                    <a href="https://mega.nz/file/k8F1HCwB#v3l10HJwQ-0rrOovt8YfMoglXXHTQn8s0vcU1dP1Z54" target="_blank" rel="noopener">Link 1</a>
+                    <a href="https://mega.nz/file/s4c21ZZL" target="_blank" rel="noopener">Link 2</a>
+                </span>
             </nav>
-            <p class="preview-note" style="text-align: center;">A decryption key is required to access the catalog file &mdash; contact Alessandro Peca directly to obtain it.</p>
+            <p class="preview-note" style="text-align: center;">Link 1 opens the file directly. Link 2 requires a decryption key &mdash; contact Alessandro Peca to obtain it.</p>
 
             <div class="embed-block" id="source-table-ref">
                 <h2>Source Catalogs</h2>
