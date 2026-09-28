@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 468,
+        "QTime": 354,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6ab151d5-4a3c74c158e1df0453780db3",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6abaa471-3298ec087e3221592dc401eb",
             "rows": "200",
             "wt": "json"
         }
@@ -72,7 +72,7 @@
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
                 ],
-                "citation_count": 8
+                "citation_count": 9
             },
             {
                 "bibcode": "2024ApJ...974..156P",
@@ -148,7 +148,7 @@
                 "title": [
                     "X-ray Redshifts for Obscured Active Galactic Nuclei with AXIS Deep and Intermediate Surveys"
                 ],
-                "citation_count": 4
+                "citation_count": 5
             },
             {
                 "bibcode": "2026arXiv260904322P",
@@ -217,6 +217,6 @@
             }
         ]
     },
-    "allocatedBytes": 47817768,
+    "allocatedBytes": 49966216,
     "filtered": "true"
 }
