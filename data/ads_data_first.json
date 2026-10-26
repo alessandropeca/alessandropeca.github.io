@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 828,
+        "QTime": 843,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode,publisher",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6ad64385-63419a19679a7cdc191f3428",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6adf792e-13943c206b4f723c4d01a6e0",
             "rows": "200",
             "wt": "json"
         }
@@ -60,7 +60,6 @@
             },
             {
                 "bibcode": "2025ApJ...990....3P",
-                "citation_count": 10,
                 "author": [
                     "Peca, Alessandro",
                     "Koss, Michael J.",
@@ -91,11 +90,11 @@
                 "title": [
                     "BASS. XLIX. Characterization of Highly Luminous and Obscured AGNs: Local X-Ray and [Ne V]\u03bb3426 Emission in Comparison with the High-redshift Universe"
                 ],
-                "publisher": "IOP"
+                "publisher": "IOP",
+                "citation_count": 10
             },
             {
                 "bibcode": "2023ApJ...943..162P",
-                "citation_count": 69,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -116,7 +115,8 @@
                 "title": [
                     "On the Cosmic Evolution of AGN Obscuration and the X-Ray Luminosity Function: XMM-Newton and Chandra Spectral Analysis of the 31.3 deg<SUP>2</SUP> Stripe 82X"
                 ],
-                "publisher": "IOP"
+                "publisher": "IOP",
+                "citation_count": 69
             },
             {
                 "bibcode": "2026arXiv260903019P",
@@ -142,26 +142,7 @@
                 "citation_count": 0
             },
             {
-                "bibcode": "2025ApJ...989...84P",
-                "citation_count": 6,
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
-                ],
-                "publisher": "IOP"
-            },
-            {
                 "bibcode": "2024ApJ...974..156P",
-                "citation_count": 13,
                 "author": [
                     "Peca, Alessandro",
                     "Cappelluti, Nico",
@@ -180,11 +161,29 @@
                 "title": [
                     "Stripe 82-XL: The \u223c54.8 deg<SUP>2</SUP> and \u223c18.8 Ms Chandra and XMM-Newton Point-source Catalog and Number of Counts"
                 ],
-                "publisher": "IOP"
+                "publisher": "IOP",
+                "citation_count": 13
+            },
+            {
+                "bibcode": "2025ApJ...989...84P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Ricci, Claudio",
+                    "Urry, C. Megan",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G."
+                ],
+                "date": "2025-08-01T00:00:00Z",
+                "title": [
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
+                ],
+                "publisher": "IOP",
+                "citation_count": 6
             },
             {
                 "bibcode": "2021ApJ...906...90P",
-                "citation_count": 28,
                 "author": [
                     "Peca, Alessandro",
                     "Vignali, Cristian",
@@ -203,7 +202,8 @@
                 "title": [
                     "X-Ray Redshifts for Obscured AGN: A Case Study in the J1030 Deep Field"
                 ],
-                "publisher": "IOP"
+                "publisher": "IOP",
+                "citation_count": 28
             },
             {
                 "bibcode": "2024Univ...10..245P",
@@ -222,7 +222,7 @@
             }
         ]
     },
-    "allocatedBytes": 53211272,
+    "allocatedBytes": 56081832,
     "filtered": "true",
     "access_modality": "api"
 }
