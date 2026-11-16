@@ -1,12 +1,12 @@
 {
     "responseHeader": {
         "status": 0,
-        "QTime": 769,
+        "QTime": 682,
         "params": {
             "q": "first_author:peca, alessandro",
             "fl": "title,author,date,citation_count,bibcode,publisher",
             "start": "0",
-            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6af4caf4-5ecb706e2b72878e5edf0902",
+            "internal_logging_params": "X-Amzn-Trace-Id=Root=1-6afb58fe-5ed6ba236125c7292a0eb3e3",
             "rows": "200",
             "wt": "json"
         }
@@ -77,24 +77,6 @@
                 "citation_count": 69
             },
             {
-                "bibcode": "2025ApJ...989...84P",
-                "author": [
-                    "Peca, Alessandro",
-                    "Koss, Michael J.",
-                    "Serafinelli, Roberto",
-                    "Ricci, Claudio",
-                    "Urry, C. Megan",
-                    "Cerini, Giulia",
-                    "Boorman, Peter G."
-                ],
-                "date": "2025-08-01T00:00:00Z",
-                "title": [
-                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
-                ],
-                "publisher": "IOP",
-                "citation_count": 8
-            },
-            {
                 "bibcode": "2024ApJ...974..156P",
                 "author": [
                     "Peca, Alessandro",
@@ -116,6 +98,24 @@
                 ],
                 "publisher": "IOP",
                 "citation_count": 14
+            },
+            {
+                "bibcode": "2025ApJ...989...84P",
+                "author": [
+                    "Peca, Alessandro",
+                    "Koss, Michael J.",
+                    "Serafinelli, Roberto",
+                    "Ricci, Claudio",
+                    "Urry, C. Megan",
+                    "Cerini, Giulia",
+                    "Boorman, Peter G."
+                ],
+                "date": "2025-08-01T00:00:00Z",
+                "title": [
+                    "NuSTAR Detection of an Absorption Feature in ESP 39607: Evidence for an Ultrafast Inflow?"
+                ],
+                "publisher": "IOP",
+                "citation_count": 8
             },
             {
                 "bibcode": "2021ApJ...906...90P",
@@ -222,7 +222,7 @@
             }
         ]
     },
-    "allocatedBytes": 48942120,
+    "allocatedBytes": 52695224,
     "filtered": "true",
     "access_modality": "api"
 }
